@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="backened.css">
+    <title>Discovery+ Backend Using JSON Server</title>
+</head>
+<body>
+    <div class="backendHeader">
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.r4x0np0LVMXdLiMl5ngKRAHaD4%26pid%3DApi&f=1" alt="" height="50px" width="100px">
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.CINMlZfhJ2d9BJvtZjFAPQHaE8%26pid%3DApi&f=1" alt="" height="50px" width="100px">
+    </div>
+    <div id="dataAddForm">
+        <!-- <input type="text" id="id" placeholder="ID"><br> -->
+        <input type="text" id="title" placeholder="Title"><br>
+        <input type="text" id="image" placeholder="image"><br>
+        <input type="text" id="price" placeholder="price"><br>
+        <div id="Allcolors">
+            <input type="text" id="colorsimg" placeholder="Colors image"><br>
+        </div>
+      
+
+        <button onclick="createNewElement()">Create New Element</button>
+    </div>
+    <div id="backend-container">
+
+    </div>
+    <script src="backened.js"></script>
+</body>
+</html>
