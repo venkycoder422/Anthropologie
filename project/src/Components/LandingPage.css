@@ -1,4 +1,4 @@
-.L_Div1{
+/* .L_Div1{
     display: flex;
     gap:10px;
 }
@@ -15,4 +15,29 @@
 .Shoe_img{
 width:500px;
 height:400px;
+} */
+.item1{grid-area: ShopNew_img;}
+.item2{grid-area:Shoe_img;}
+.item3{grid-area:Jackets;}
+.item4{grid-area:Pants;}
+.item5{grid-area:Decor;}
+.item6{grid-area:Kitchen;}
+.item7{grid-area:Getway;}
+.MainDiv{
+    display:grid ;
+    /* grid-template-columns: repeat(3,500px); */
+    gap:10px;
+    grid-template-areas: "ShopNew_img ShopNew_img Shoe_img"
+                        "Jackets Pants Decor"
+                        "Kitchen Kitchen Getway"
+}
+
+.MainDiv>div{
+    border-color: blue;
+    background-color: aquamarine;
+}
+.MainDiv img{
+    width:100%;
+    height:500px;
+    border-color: blue;
 }

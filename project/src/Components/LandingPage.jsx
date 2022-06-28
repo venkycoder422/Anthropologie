@@ -8,16 +8,17 @@ import "./LandingPage.css"
 
 const LandingPage = () => {
   return (
-    <div>
-        <div className='L_Div1'>
-            <img className="ShopNew_img"src={ShopNew}></img>
-            <img className="Shoe_img"src={Shoes}></img>
-        </div>
-        <div className="L_Div2">
-            <img src={Accessories}></img>
-            <img src={Tops}></img>
-            <img src={Jeans}></img>
-        </div>
+    <div className="MainDiv">
+            <div className='item1'><img className="ShopNew_img" src={ShopNew}></img></div>
+            <div className='item2'><img className="Shoe_img"src={Shoes}></img></div>
+            <div></div>
+            <div className='item3'><img src={Accessories}></img></div>
+            <div className='item4'><img src={Tops}></img></div>
+            <div className='item5'><img src={Tops}></img></div>
+            <div className='item6'><img src={Tops}></img></div>
+            <div className='item7'><img src={Jeans}></img></div>
+            
+        
             
         
     </div>
