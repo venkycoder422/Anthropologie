@@ -1,43 +1,74 @@
-/* .L_Div1{
-    display: flex;
-    gap:10px;
-}
-.L_Div2{
-    display: flex;
-    gap:10px;
-}
 
 
-.L_Div1>.ShopNew_img{
-    width:1000px;
-    height:500px;
+.MainPage{
+    margin: 20px 50px 0px 50px;
+    
 }
-.Shoe_img{
-width:500px;
-height:400px;
-} */
-.item1{grid-area: ShopNew_img;}
-.item2{grid-area:Shoe_img;}
-.item3{grid-area:Jackets;}
-.item4{grid-area:Pants;}
-.item5{grid-area:Decor;}
-.item6{grid-area:Kitchen;}
-.item7{grid-area:Getway;}
+
+.item1{grid-area: ShopNew_img;
+        height:600px; 
+}
+.item2{
+    grid-area:Shoe_img;
+    
+}
+.item3{grid-area:Jackets;
+        margin-top: -315px;
+        height:600px}
+.item4{grid-area:Pants;
+    margin-top: -315px;
+    height:600px}
+.item5{grid-area:Decor;
+    
+}
+.item6{grid-area:Kitchen;
+        margin-top: -115px;}
+.item7{grid-area:Jeans;
+        height:400px;}
+.item8{grid-area:Getway;}
+.item9{grid-area:FanFave}
+
 .MainDiv{
+   
     display:grid ;
-    /* grid-template-columns: repeat(3,500px); */
-    gap:10px;
+    row-gap:35px;
+    column-gap:20px;
     grid-template-areas: "ShopNew_img ShopNew_img Shoe_img"
-                        "Jackets Pants Decor"
+                        "ShopNew_img ShopNew_img Decor"
+                        "Jackets Pants Jeans"
                         "Kitchen Kitchen Getway"
+                        "FanFave FanFave FanFave"
 }
 
 .MainDiv>div{
-    border-color: blue;
     background-color: aquamarine;
 }
 .MainDiv img{
     width:100%;
-    height:500px;
+    height:100%;
     border-color: blue;
 }
+
+/* MAY LIKE PAGE OR DIV */
+
+.MayLikeDiv{
+    display: flex;
+    gap:20px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    height:400px;
+    padding: 5px;
+}
+.MayLikeDiv button{
+    width:100%;
+    height:30px;
+    border:none;
+    position: relative;
+    top:-20px;
+}
+
+.Trending{
+    margin-top: 100px;
+}
+
+
