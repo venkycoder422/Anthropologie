@@ -1,0 +1,26 @@
+{
+  "signUpDetails": [
+    {
+      "mail": "enjarappachinni2001@gmail.com",
+      "number": "6366908417",
+      "id": 1
+    },
+    {
+      "mail": "enjarappachinni@gmail.com",
+      "number": "63669084174",
+      "id": 2
+    },
+    {
+      "mail": "enjata@gmail.com",
+      "number": "46576945",
+      "id": 3
+    },
+    {
+      "mail": "e",
+      "number": "46576945",
+      "id": 4
+    }
+   
+  ],
+  "signInDetails": []
+}

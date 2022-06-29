@@ -4,19 +4,23 @@ import "../style/otpform.css"
 
 export default function MobileOtp() {
     const [otp, setotp] = React.useState("")
+
     return (
         <div className='otpMain'>
+            <Link to="homepage"><img className="closeMark" src='https://icon-library.com/images/close-x-icon/close-x-icon-19.jpg' /></Link>
+
 
             <h2>Finish Signing In</h2>
-            <hr></hr>
+            <hr className='hr'></hr>
             <p>If your mobile number is verified with us, you will recieve a one-time code sent to:</p>
             <p>{ }</p>
 
             <form className='otpform'>
-                <label>*Enter Code*</label>
+                <label style={{ marginLeft:"-380px"
+                }}>*Enter Code*</label>
 
-                <input type="text" value={otp} onChange={(e) => setotp(e.target.value)} ></input>
-                <input type="button" value="NEXT"></input>
+                <input type="text" value={otp} onChange={(e) => setotp(e.target.value)} className="otpnumber" ></input>
+                <Link to = "homepage"><input type="button" value="NEXT" className='nextbtn'></input></Link>
             </form>
             <p>Having trouble? <Link to="/"><span style={{ color: "blue", textDecoration: "underline" }}>Sign in with your email instead</span></Link></p>
             <p>Landlines, VoIP, and prepaid phones are not supported. Standard message & data rates may apply. Message frequency may vary. Reply HELP for help, and STOP to cancel.</p>
@@ -24,7 +28,7 @@ export default function MobileOtp() {
                 <div><span>Terms Of Use</span></div>
                 <div><span>Privacy Policy</span></div>
                 <div><span>Support Contact Info</span></div>
-                
+
             </div>
 
 

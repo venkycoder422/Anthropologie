@@ -5,6 +5,8 @@ export default function MobileSign() {
   const [number, setnumber] = React.useState("");
   return (
     <div className='mobileLogin'>
+      <Link to="/homepage"><img className="closeMark" src='https://icon-library.com/images/close-x-icon/close-x-icon-19.jpg' /></Link>
+
       <h2>Sign In</h2>
       <hr className='mobilehr'></hr>
       <p>Sign in so you can save items to your wishlists, track your orders, and check out faster!</p>
@@ -14,16 +16,16 @@ export default function MobileSign() {
         <div style={{ display: "flex" }}>
           <div>
 
-            <label>Mobile Number*</label><br />
+            <label style={{ marginLeft: "60px" }}>Mobile Number*</label><br />
             <select className='selectNumber'>
               <option>+91</option>
               <option>+44</option>
               <option>+59</option>
             </select>
           </div>
-          <div>
+          <div className="mobilenum">
 
-            <input type="text" value={number} onChange={(e) => setnumber(e.target.value)} />
+            <input type="text"  value={number} onChange={(e) => setnumber(e.target.value)} />
           </div>
 
 
@@ -38,8 +40,8 @@ export default function MobileSign() {
       <hr className='mobilehr'></hr>
 
       <h2>Sign Up</h2>
-            <p className='signInPara' style={{ marginTop: "-7px" }}>*Welcome! It's quick and easy to set up an account*</p>
-           <Link to="/signup"><button className='createAnAccount'>CREATE AN ACCOUNT</button></Link> 
+      <p className='signInPara' style={{ marginTop: "-7px" }}>*Welcome! It's quick and easy to set up an account*</p>
+      <Link to="/signup"><button className='createAnAccount'>CREATE AN ACCOUNT</button></Link>
 
     </div>
   )
