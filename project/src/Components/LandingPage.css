@@ -106,9 +106,10 @@
 
 .ExploreGridDiv{
     display: grid;
-    grid-template-columns: repeat(3,400px);
+    grid-template-columns: repeat(3,450px);
     gap:20px;
     padding:20px;
+    justify-content: center;
     
 }
 
