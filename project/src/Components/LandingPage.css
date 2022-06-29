@@ -4,25 +4,29 @@
     margin: 20px 50px 0px 50px;
     
 }
+.Links{
+    text-decoration: none;
+    color: #26262C;
+}
 
 .item1{grid-area: ShopNew_img;
-        height:600px; 
+        height:700px; 
 }
 .item2{
     grid-area:Shoe_img;
     
 }
 .item3{grid-area:Jackets;
-        margin-top: -315px;
+        margin-top: -350px;
         height:600px}
 .item4{grid-area:Pants;
-    margin-top: -315px;
+    margin-top: -350px;
     height:600px}
 .item5{grid-area:Decor;
     
 }
 .item6{grid-area:Kitchen;
-        margin-top: -115px;}
+        margin-top: -150px;}
 .item7{grid-area:Jeans;
         height:400px;}
 .item8{grid-area:Getway;}
@@ -55,8 +59,7 @@
     display: flex;
     gap:20px;
     overflow-x: scroll;
-    overflow-y: hidden;
-    height:400px;
+    height:500px;
     padding: 5px;
 }
 .MayLikeDiv button{
@@ -65,10 +68,54 @@
     border:none;
     position: relative;
     top:-20px;
+    background-color: rgb(211, 224, 224);
+}
+.MayLikeDiv>div>img{
+    width:250px;
+    height:350px;
+}
+/* .Trending{
+    margin-top: 100px;
+} */
+
+.leftarrow1{
+   
+    position: relative;
+    top:200px;
+}
+.leftarrow2{
+    position: relative;
+    float:right;
+    top:-350px;
+    
+}
+
+.leftarrow1>img{
+    width:20px;
+    height:40px;
+}
+.leftarrow2>img{
+    width:20px;
+    height:40px;
+    transform: rotate(180deg);
 }
 
 .Trending{
-    margin-top: 100px;
+    margin-top: 100px;;
 }
+
+.ExploreGridDiv{
+    display: grid;
+    grid-template-columns: repeat(3,400px);
+    gap:20px;
+    padding:20px;
+    
+}
+
+.ExploreGridDiv img{
+    width:100%;
+}
+
+
 
 
