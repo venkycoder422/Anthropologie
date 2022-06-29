@@ -1,0 +1,115 @@
+.fullbox{
+    display:flex;
+    width:92%;
+    height:8120px;
+ 
+    margin: auto;
+    justify-content: space-between;
+   
+}
+.But{
+    display:none;
+}
+.fullimage:hover +button{
+    position: relative;
+    top:-40px;
+    display: block;;
+    width:100%;
+    height:40px;
+    margin-bottom: -43px;
+    background-color: white;
+}
+.leftpart{
+    width:16%;
+    Height:70%;
+   
+  
+    text-align: left;
+    border-bottom: 1px solid var(--border-default);
+    color:rgb(63, 62, 62);
+    font: 1.08rem/1 Avenir Medium,sans-serif;
+    letter-spacing: .06rem;
+    margin-bottom: 0;
+    padding-bottom: 10px;
+   
+}
+a:link { text-decoration:non; }
+a:visited { text-decoration: underline; color: rgb(63, 62, 62); } 
+a:hover { text-decoration: underline; }
+a:active { text-decoration: underline;  }
+
+
+.rightpart{
+    width:81%;
+    Height:100%;
+   
+   
+}
+.upperRightpart{
+    display:flex;
+    
+    height:70px;
+    justify-content: space-between;
+
+}
+.leftupperRightpart{
+    display: flex;
+
+    height: 100%;
+    width:40%;
+    text-align: left;
+
+}
+.left{
+    height:100%;
+    width:52%;
+}
+.right{
+    margin-top: 5px;
+    height:100%;
+    width:30%;
+    color: rgb(155, 150, 150); 
+}
+.rightupperRightpart{
+  
+    height: 100%;
+    width:40%;
+}
+.lowerRightpart{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(18,1fr);
+   
+    gap:20px;
+    text-align: left;
+    color: rgb(63, 62, 62); 
+   
+}
+.fullimage{
+    width: 100%;
+    height: 328px;
+    
+
+}
+fullimage:hover{background-color: aqua;}
+.clothname{
+    margin-top: -3px;
+}
+.pricetag{
+    margin-top: -10px;
+}
+.circlebutton > img{
+    margin-top: -10px;
+    border-radius: 30px;
+    width: 20px;
+    height: 20px;
+    margin-left: -5px;
+    margin-bottom: -5px;
+}
+.circlebutton {
+    margin-top: -10px;
+    
+    border-radius: 30px;
+    width: 27px;
+    height: 27px;
+}

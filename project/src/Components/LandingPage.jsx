@@ -17,7 +17,7 @@ import Honoring from "./images/Honoring.webp";
 import Donate from "./images/Donate.webp";
 import GreaterGood from "./images/GreaterGood.webp";
 import "./LandingPage.css"
-import { NewShop } from './NewShop';
+import { Cloths } from './NewShop';
 import { Link } from "react-router-dom";
 
 // Styled Components 
@@ -72,7 +72,7 @@ padding: 13px 20px;
 text-decoration: none;
 position:relative;
 top:-80px;
-left:100px;
+left:120px;
 &:hover{
  
   text-decoration:underline;
@@ -92,7 +92,7 @@ const LandingPage = () => {
   }, [])
 
 
-
+console.log()
 
 
 
@@ -102,33 +102,33 @@ const LandingPage = () => {
       <div className="MainDiv">
         <div className='item1'>
           <img className="ShopNew_img" src={ShopNew} alt=""></img>
-          <Link to="/ShopNew" className='Links'><AccessButtonsLargeImage href='#'>shop new-in dresses</AccessButtonsLargeImage></Link>
+          <Link to="/Cloths" className='Links'><AccessButtonsLargeImage href='#'>shop new-in dresses</AccessButtonsLargeImage></Link>
         </div>
         <div className='item2' >
           <img className="Shoe_img" src={Wedding} alt=""></img>
-          <Link to="/NewDresses" className='Links'><AccessButtons href="#">shop new-in dresses</AccessButtons></Link>
+          <Link to="/NewDresses" className='Links'><AccessButtons href="#">shop BHDLN weddings</AccessButtons></Link>
         </div>
         <div className='item3'>
           <img src={Jackets} alt=""></img>
-          <AccessButtons href="#">shop new-in dresses</AccessButtons></div>
-        <div className='item4'><img src={Pants} alt=""></img><AccessButtons href="#">shop new-in dresses</AccessButtons>
+          <AccessButtons href="#">shop Jackets</AccessButtons></div>
+        <div className='item4'><img src={Pants} alt=""></img><AccessButtons href="#">shop Jackets</AccessButtons>
         </div>
         <div className='item5'>
           <img src={Decors} alt=""></img>
-          <AccessButtons href="#">shop new-in dresses</AccessButtons>
-          </div>
+          <AccessButtons href="#">shop Furniture</AccessButtons>
+        </div>
         <div className='item6'>
           <img src={Furniture} alt=""></img>
           <AccessButtonsLargeImage href="#">shop new-in dresses</AccessButtonsLargeImage>
-          </div>
+        </div>
         <div className='item7'>
           <img src={Jeans} alt=""></img>
           <AccessButtons href="#">shop new-in dresses</AccessButtons>
-          </div>
+        </div>
         <div className='item8'>
           <img src={Getaway} alt="">
           </img><AccessButtons href="#">shop new-in dresses</AccessButtons>
-          </div>
+        </div>
         <div className="item9">
           <img src={FanFave} alt=""></img>
           <AccessButtonsLargeImage href="#">shop new-in dresses</AccessButtonsLargeImage></div>
@@ -145,6 +145,7 @@ const LandingPage = () => {
               <>
                 <div>
                   <img src={data.image} />
+                  {/* <img src={data.color[0].colorsimg}></img> */}
                   <button>Quick Shop</button>
                   <p>{data.title}</p>
                 </div>

@@ -2,7 +2,7 @@
 import './App.css';
 import LandingPage from './Components/LandingPage';
 import {Routes, Route} from "react-router-dom"
-import  {NewShop}  from './Components/NewShop';
+import  {Cloths} from "./Components/Cloths"
 import { NewDresses } from './Components/NewDresses';
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
     <>
     <Routes>
      <Route path="/" element={ <LandingPage />}></Route> 
-     <Route path="/ShopNew" element={ <NewShop />}></Route>
+     <Route path="/Cloths" element={ <Cloths />}></Route>
      <Route path="/NewDresses" element={ < NewDresses/>}></Route> 
  
      
