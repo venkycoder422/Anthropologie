@@ -1,0 +1,162 @@
+.Main-outside-div{
+  /* border: 1px solid red; */
+  margin-left:70px;
+  display: flex;
+  width:1000px;
+   
+  justify-content: space-around;
+
+}
+.productMainImage{
+  /* border: 1px solid black; */
+  display: flex;
+  width: 600px;
+  justify-content: space-between;
+  /* gap:10%; */
+  height: 700px;
+
+
+}
+/* .product-big-image>img{
+  border: 2px solid red;
+}
+ */
+
+ .allDataShow{
+  /* border: 1px solid green; */
+  width:300px;
+ }
+.Plenty{
+  color:var(--text-dark);
+  font:20px/1.3 Avenir Medium,Sans-serif;
+  letter-spacing:.12rem;
+  margin-bottom: 5px;
+  margin-top: 0;
+  
+
+
+}
+.PlentyTracy{
+  color:#167A92;
+  font:13px;
+  text-decoration: underline;
+  /* margin-bottompx; */
+  font-family: "Avnir Book",sans-serif;
+   /* margin-left: 10px; */
+}
+
+.priceTotal{
+  font-size:20px;
+  font-family: "Avenir Book",sans-serif;
+  color:#26262C;
+}
+.interest{
+  font-size: 13px;
+  font-family: "Avenir Book",sans-serif;
+  color:#5C5C5F;
+}
+.klarnaorafterpay{
+  display: flex;
+  /* border: 1px solid red; */
+  justify-content: space-around;
+  height: 40px;
+  width: 100px;
+  font-size: 10px;
+  margin-top: -8px;
+
+}
+.klarna{
+ font-size: 12px;
+ font-weight: 400;
+ font-family: "Avenir Book",sans-serif;
+ color:#000000;
+} 
+.or{
+  color:#5C5C5F;
+  font-size: 11px;
+  /* margin-top: 10px; */
+  /* margin-left: 2px; */
+} 
+.afterpay{
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "Avenir Book",sans-serif;
+  /* margin-top: 15px; */
+  /* margin-left: 10px; */
+}
+
+.colorname{
+  font:13px;
+  color:#26262C;
+
+  font-family: "Avenir Medium",sans-serif;
+
+}
+.colorimage{
+  border-radius: 50px;
+  width:20px;
+  border:1px solid black
+}
+.sizeDress{
+  color:#26262C;
+
+  font-family: "Avenir Medium",sans-serif;
+}
+.productSizes{
+  /* border: 1px solid red; */
+  display: grid;
+  width:250px;
+  gap:5px;
+  grid-template-columns: repeat(6,1fr);
+}
+.productSizes>div{
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  text-align: center;
+  border: 10px;
+}
+
+.quantity{
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  height: 40px;
+  width: 100px;
+  border-radius: 10px;
+  /* text-align: left; */
+
+
+}
+.quantity>p{
+  /* text-align: left; */
+  margin-left: 10px;
+}
+ /* .addToBasket{
+  
+  border: 1px solid red;; 
+}  */
+.addToBasket>button{
+  font:13px "Avenir Medium ",sans-serif;
+  background-color: #4B5666;
+  color:#ffffff;
+  height: 40px;
+  width:100%;
+  border: none;
+}
+.addToRegister{
+  display: flex;
+  /* border: 1px solid red; */
+  justify-content: space-between;
+}
+.addToRegister{
+  color:#167A92;
+  font-size:12px;
+  text-decoration: underline;
+  /* margin-bottompx; */
+  font-family: "Avnir Book",sans-serif;
+}
+.productDetails{
+  color:#26262C;
+  
+  font-family: "Avenir Medium",sans-serif;
+}
+
+
+
