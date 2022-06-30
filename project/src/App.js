@@ -6,6 +6,11 @@ import {Routes,Route} from "react-router-dom";
 import MobileSign from './components/MobileSign';
 import MobileOtp from './components/MobileOtp';
 import Home from './components/Home';
+import Footer from './components/Footer';
+import Login from './components/Login';
+import Navbar from './components/Navbar';
+import { Route, Routes } from 'react-router-dom';
+import React from 'react'
 
 function App() {
 
