@@ -1,13 +1,15 @@
 
 import './App.css';
+import React from "react"
 import ProductsShow from "./components/SecondPageClothing.jsx"
-
+import ShowDataCart from "./components/AddtoCart"
 
 function App() {
   return (
     <div className="App">
      {/* <h1>hello</h1> */}
-     <ProductsShow/>
+     {/* <ProductsShow/> */}
+    <ShowDataCart/>
     </div>
   );
 }

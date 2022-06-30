@@ -1,8 +1,46 @@
 import React from "react";
 import  "./SecondPageClothing.css"
-// import  "./SecondPageClothing.css"
+
+// import {useDispatch,useSelector} from "react-redux"
+
+// import ADDTOCART from "./cart-redux/cart-action"
 
 // import { useParams } from "react-router-dom";
+// const dispatch=useDispatch()
+
+const getDatafromdba=async(id)=>{
+  try{
+         let response =await fetch (`http://localhost:5000/users/${id}`)
+         let result=await response.json();
+        //  console.log(result)
+         return result.userCart;
+         
+
+  }catch(error)
+  {
+    console.log(error)
+  }
+    
+}
+
+const updateCartInDB = async (updatedCart, id) => {
+  await fetch(`http://localhost:5000/users/${id}`,{
+    method: "PATCH",
+    body: JSON.stringify({userCart: updatedCart}),
+    headers: {"Content-Type":"application/json"}
+  })
+}
+
+ const sendData=(productDetails)=>{
+  getDatafromdba(1).then((res)=>{
+    // console.log(res)
+    let updatedCart = [...res, productDetails];
+    updateCartInDB(updatedCart,1);
+    // console.log(updatedCart)
+  });
+    // console.log(productDetails)
+
+ }
 
 const ProductsShow=()=>{
     // const productCategory = "new_clothing";
@@ -23,7 +61,7 @@ const ProductsShow=()=>{
 
     React.useEffect(()=>{
         getAllData().then((res)=>{
-          console.log(res)
+          // console.log(res)
 
             setProductDetails(res)
         })
@@ -37,7 +75,7 @@ const ProductsShow=()=>{
         <div className="Main-outside-div">
         
          <div className="productMainImage">
-                <div className="otherimg"> 
+                {/* <div className="otherimg"> 
               
            <img src={productDetails.otherimg[0]} alt="" /> 
            <br />
@@ -47,7 +85,7 @@ const ProductsShow=()=>{
           <br />
           <img src={productDetails.otherimg[3]} alt="" />   
           
-          </div>    
+          </div>     */}
            
              {/* <div className="product-big-image"> */}
                <img src={productDetails.image} alt="" />  
@@ -72,7 +110,7 @@ const ProductsShow=()=>{
                {/* <h2>Online Exclusive</h2> */}
                <hr />
                <p className="colorname">Color:ORANGE MOTIF</p>
-               <img className="colorimage" src={productDetails.color[0]} alt="" />
+               {/* <img className="colorimage" src={productDetails.color[0]} alt="" /> */}
                <p className="sizeDress">Size*</p>
                <div className="productSizes">
                 <div>0</div>
@@ -94,7 +132,7 @@ const ProductsShow=()=>{
                  </div>
                  <br /><br />
                  <div className="addToBasket">
-                  <button>ADD TO BASKET</button>
+                  <button onClick={()=>sendData(productDetails)} >ADD TO BASKET</button>
                  </div>
                  <div className="addToRegister">
                   <p>Add To Registry</p>
@@ -139,4 +177,4 @@ const ProductsShow=()=>{
     )
 }
 
-export default ProductsShow
+export default ProductsShow 
