@@ -7,7 +7,7 @@ export default function MobileOtp() {
 
     return (
         <div className='otpMain'>
-            <Link to="homepage"><img className="closeMark" src='https://icon-library.com/images/close-x-icon/close-x-icon-19.jpg' /></Link>
+            <Link to="/homepage"><img className="closeMark" src='https://icon-library.com/images/close-x-icon/close-x-icon-19.jpg' /></Link>
 
 
             <h2>Finish Signing In</h2>

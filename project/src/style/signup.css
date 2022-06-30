@@ -12,8 +12,9 @@ body{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     margin-top: 30px;
     margin-bottom: 30px;
-    height: 690px;
+    height: 450px;
     padding-bottom: 30px;
+    overflow-x: scroll;
 }
 
 .policy{

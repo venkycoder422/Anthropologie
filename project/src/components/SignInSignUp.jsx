@@ -13,7 +13,7 @@ export default function SignInSignUp() {
 
 
     React.useEffect(()=>{
-        fetch(`http://localhost:3001/signUpDetails`)
+        fetch(`http://localhost:5000/signUpDetails`)
         .then((res)=>res.json())
         .then((res)=>setdata(res))
         .catch((err)=>console.log(err));
@@ -21,6 +21,9 @@ export default function SignInSignUp() {
   
 
     },[mail]);
+
+    // console.log(data1)
+
     
 
 
@@ -36,7 +39,25 @@ export default function SignInSignUp() {
             }
         })
 
-        
+        // data1.map((d)=>{
+        //     // console.log(d.mail)
+        //     if(d.mail === mail){
+        //         alert("successful");
+        //         return;
+        //     }else{
+        //         alert("failed");
+        //         return;
+        //     }
+    
+        // })
+// console.log(data1.length)
+        for(var i=0;i<data1.length;i++){
+            if(data1[i].mail===mail){
+                alert("Sucessfully!");
+                return;
+            }
+        }
+        alert("user not exist!")    
     }
     
 
@@ -47,7 +68,7 @@ export default function SignInSignUp() {
 
 
         <div className='signInMain'>
-            <Link to="homepage"><img className="closeMark" src='https://icon-library.com/images/close-x-icon/close-x-icon-19.jpg' /></Link>
+            <Link to="/homepage"><img className="closeMark" src='https://icon-library.com/images/close-x-icon/close-x-icon-19.jpg' /></Link>
             <h2>Sign In</h2>
             <hr className='signInhr'></hr>
             <p className='signInPara'>*Sign in so you can save items to your wishlists, track your orders, and check out faster!*</p>

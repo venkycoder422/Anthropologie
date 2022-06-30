@@ -27,7 +27,7 @@ export default function () {
 
             }
         })
-        const res = await fetch(`http://localhost:3001/signUpDetails`,{
+        const res = await fetch(`http://localhost:5000/signUpDetails`,{
             method : "POST",
             body:JSON.stringify(details),
             headers :{
@@ -51,7 +51,7 @@ export default function () {
 
     return (
         <div className='signInMain'>
-            <Link to="homepage"><img  className = "closeMark" src='https://icon-library.com/images/close-x-icon/close-x-icon-19.jpg'/></Link>
+            <Link to="/homepage"><img  className = "closeMark" src='https://icon-library.com/images/close-x-icon/close-x-icon-19.jpg'/></Link>
 
             <h2>Create An Account</h2>
             <hr className='SignInhr'></hr>
