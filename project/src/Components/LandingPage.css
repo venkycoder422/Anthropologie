@@ -8,6 +8,12 @@
     text-decoration: none;
     color: #26262C;
 }
+.LinkWithoutDecoration{
+    color:red;
+}
+.LinkWithoutDecoration:hover{
+text-decoration: none;
+}
 
 .item1{grid-area: ShopNew_img;
         height:700px; 
@@ -58,21 +64,35 @@
 .MayLikeDiv{
     display: flex;
     gap:20px;
-    overflow-x: scroll;
+    /* overflow-x: scroll; */
     height:500px;
     padding: 5px;
 }
 .MayLikeDiv button{
-    width:100%;
+    /* width:100%;
     height:30px;
     border:none;
     position: relative;
     top:-20px;
-    background-color: rgb(211, 224, 224);
+    background-color: rgb(211, 224, 224); */
+    display: none;
 }
-.MayLikeDiv>div>img{
+
+.fullimageL:hover + button{
+    position: relative;
+    top:-40px;
+    display: block;;
+    width:100%;
+    height:43px;
+    margin-bottom: -43px;;
+    background-color: rgb(235, 233, 233);
+    opacity: 0.7;
+    color:black;
+    border: none;
+}
+.MayLikeDiv>div img{
     width:250px;
-    height:350px;
+    height:328px;
 }
 /* .Trending{
     margin-top: 100px;
@@ -116,7 +136,4 @@
 .ExploreGridDiv img{
     width:100%;
 }
-
-
-
 
