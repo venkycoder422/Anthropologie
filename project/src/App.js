@@ -8,7 +8,7 @@ import MobileOtp from './components/MobileOtp';
 import Home from './components/Home';
 import PaymentPage from './components/PaymentPage';
 import OrderConfirm from './components/OrderConfirm';
-
+import Footer from './components/Footer';
 function App() {
 
   const signup = useSelector(state =>state.users);
@@ -17,8 +17,9 @@ function App() {
   
   return (
     <div className="App">
+      <Footer />
       <Routes>
-        <Route path = "/" element = {<PaymentPage />}></Route>
+        <Route path = "/" element = {<SignInSignUp />}></Route>
         <Route path = "/signup" element = {<Signup />}></Route>
         <Route path = "/mobile" element = {<MobileSign/>} ></Route>
         <Route path='/mobileotp' element = {<MobileOtp />}></Route>

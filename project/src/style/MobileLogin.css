@@ -12,7 +12,8 @@ body{
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         margin-top: 30px;
         margin-bottom: 30px;
-        height: 650px;
+        overflow-y: scroll;
+        height: 400px;
     
 }
 .mobileLogin h2{
@@ -44,4 +45,8 @@ body{
     height: 15px;
     margin: 20px 5px 10px 10px;
     margin-left: 500px;
+}
+
+input{
+    border: 2px solid black;
 }

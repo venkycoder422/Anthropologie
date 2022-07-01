@@ -26,10 +26,10 @@ body{
     flex-direction: column;
 
 }
-.otpform input {
+/* .otpform input {
     width: 80%;
     /* margin-left: -0px; */
-}
+
 
 .termsCondition{
     display: grid;

@@ -1,0 +1,76 @@
+.hr{
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+    height: 1px;
+    margin-bottom: 20px;
+}
+
+.footerMain{
+
+    background-color: rgb(240, 234, 234);
+    height: 700px;
+    margin-top: 2%;
+}
+
+.footergrid{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: auto;
+    padding-top: 30px;
+}
+
+.footergrid > div > p{
+    cursor: pointer;
+
+}
+.footergrid > div > p:hover{
+    text-decoration: underline;
+}
+
+.footergrid img{
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+}
+.logo{
+    width: 50%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: auto;
+}
+
+.logo >div > img{
+    width: 80px;
+    height: 70px;
+}
+
+.logo > div > img:hover {
+    cursor: pointer;
+}
+.banner{
+    width: 80%;
+    margin: auto;
+}
+
+.banner > img {
+    height: 70px;
+    margin-top: 30px;
+}
+.footerSubmit{
+    background-color: rgb(165, 110, 218);
+
+    width: 80px;
+    margin-left: 10px;
+    height: 30px;
+}
+
+.footerInput{
+    width: 60%;
+    height: 30px;
+    /* margin-left: -30px; */
+
+}
