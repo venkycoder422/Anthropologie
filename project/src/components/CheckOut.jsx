@@ -1,4 +1,7 @@
   import React from "react";
+  import "./CheckOut.css";
+
+     
 
     const ShowDataCart=()=>{
      const [cartState, setCartState] =React.useState([])
@@ -13,55 +16,94 @@
       {
         console.log(error)
       }
-     }
+      // console.log(userCart)
 
+     }
+   
      React.useEffect(()=>{
       getCartData().then((res)=>{
+
         // console.log(res)
 
 
-          setCartState(res)
+          setCartState(res);
+          
+          
       })
   },[])
+
+      
    
     return(
-         <div>
+         <>
           {
           cartState.map((item)=>{
             return(
               // console.log(item)
               <div>
-                <div>
-              <h2>Basket</h2> 
-              <h2>Order Summary</h2>
+                <div className="BasketOrder">
+              <p>Basket</p> 
+              <p>Order Summary</p>
               </div>
-              <hr />
+              <hr  width="950px" align="left" margin-top="-2px"/>
               <div className="itemOrderSummary">
+             
               <div className="Item-ItemPrice">
-                <p>Item</p>
-                <p>Item Price</p>
-                <p>Quantity</p>
-                <p>Total Price</p>
+              
+                 <div className="itemData">
+                  
+                 <div id="item"><p>Item</p></div>
+                {/* <hr width="950px" align="left" margin-top="-2px"></hr> */}
+                <div className="image-name">
+                <div className="imageData"> <img src={item.image} alt="" /></div>
+                 <div className="nameData"> <p>{item.title}</p>
+                 <p>Style #4130089540081</p>
+                  <p>Color:Black</p></div>
 
+                   
+                  
+                   
+                   </div>
+                </div>
+                <div className="otherItem">
+                 <div className="item1">
+                <p>Item Price</p>
+                
+                <div className="itemprice"><p>{item.price}</p></div>
+                 </div>
+                 <div>
+                <p>Quantity</p>
+                <div>1</div>
+                </div>
+                <div>
+                <p>Total Price</p>
+                <div><p>{item.price}</p></div>
+                </div>
+                </div>
               </div>
               <div className="OrderSummary">
-                <div>
-                <p>Subtotal</p>
-                <p></p>
+                <div className="subtotal">
+                <p className="para">Subtotal</p>
+                {
+                      cartState.reduce((a,b)=> {return a+(+(b.price))},0)
+                    }
 
                 </div>
-                <div>
-                 <p>Shipping</p> 
-                 <p>TBD</p>
+                <div className="ship">
+                 <p className="para">Shipping</p> 
+                 <p className="para">TBD</p>
 
                 </div>
-                <div>
-                  <p>Estimated TAx</p>
-                  <p>$0.00</p>
+                <div  className="estimatedtax">
+                  <p className="para">Estimated TAx</p>
+                  <p className="para">$0.00</p>
                 </div>
-                  <div>
+                  <div className="subtotal">
                     <p>Total</p>
                     {/* <p></p> */}
+                    {
+                      cartState.reduce((a,b)=> {return a+(+(b.price))},0)
+                    }
                   </div>
                    <p>or 4 interest-free installments of $389.50 with</p>
                    <div className="klarnaorafterpay">
@@ -69,13 +111,13 @@
                  <p className="or">or</p>
                  <p className="afterpay">afterpay</p>
                  </div>
-                 <button>PROCCED TO CHECKOUT</button>
+                 <button id="checkout">PROCCED TO CHECKOUT</button>
 
               </div>
               </div>
               <div  className="Big-box">
               <div className="cartDataShow">
-                <div> <img src={item.image} alt="" /></div>
+              <div className="imageData"> <img src={item.image} alt="" /></div>
                  <div> <p>{item.name}</p>
                  <p>Style #4130089540081</p>
                   <p>Color:Black</p></div>
@@ -91,9 +133,9 @@
         }
         
 
-         </div>
+         
 
-
+</>
 
     )
           }

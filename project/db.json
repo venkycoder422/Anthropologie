@@ -9,132 +9,9 @@
       "userCart": [
         {
           "id": 1,
-          "image": "https://images.urbndata.com/is/image/Anthropologie/4130920080028_089_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
-          "title": "Plenty by Tracy Reese Checkered Maxi Dress",
-          "price": "$248:00",
-          "color": [
-            "https://images.urbndata.com/is/image/Anthropologie/4130920080028_089_s?fit=constrain&hei=56&qlt=75"
-          ]
-        },
-        {
-          "id": 2,
-          "image": "https://images.urbndata.com/is/image/Anthropologie/4130920080028_089_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
-          "title": "Plenty by Tracy Reese Checkered Maxi Dress",
-          "price": "$248:00",
-          "color": [
-            "https://images.urbndata.com/is/image/Anthropologie/4130920080028_089_s?fit=constrain&hei=56&qlt=75"
-          ]
-        },
-        {
-          "id": 1,
           "image": "https://images.urbndata.com/is/image/Anthropologie/4130920080028_089_b?$a15-pdp-detail-shot$&fit=constrain&qlt=80&wid=900",
           "title": "Plenty by Tracy Reese Checkered Maxi Dress",
-          "price": "$248.00",
-          "color": [
-            "https://images.urbndata.com/is/image/Anthropologie/4130920080028_089_s?fit=constrain&hei=56&qlt=75"
-          ],
-          "otherimg": [
-            "https://images.urbndata.com/is/image/Anthropologie/4130920080028_089_b?$a15-pdp-detail-shot$&fit=constrain&qlt=80&wid=100",
-            "https://images.urbndata.com/is/image/Anthropologie/4130920080028_089_b2?$a15-pdp-detail-shot$&fit=constrain&qlt=80&wid=100",
-            "https://images.urbndata.com/is/image/Anthropologie/4130920080028_089_b3?$a15-pdp-detail-shot$&fit=constrain&qlt=80&wid=100",
-            "https://images.urbndata.com/is/image/Anthropologie/4130920080028_089_b4?$a15-pdp-detail-shot$&fit=constrain&qlt=80&wid=100"
-          ]
-        },
-        {
-          "id": 1,
-          "image": "https://images.urbndata.com/is/image/Anthropologie/4130920080028_089_b?$a15-pdp-detail-shot$&fit=constrain&qlt=80&wid=900",
-          "title": "Plenty by Tracy Reese Checkered Maxi Dress",
-          "price": "$248.00",
-          "color": [
-            "https://images.urbndata.com/is/image/Anthropologie/4130920080028_089_s?fit=constrain&hei=56&qlt=75"
-          ],
-          "otherimg": [
-            "https://images.urbndata.com/is/image/Anthropologie/4130920080028_089_b?$a15-pdp-detail-shot$&fit=constrain&qlt=80&wid=100",
-            "https://images.urbndata.com/is/image/Anthropologie/4130920080028_089_b2?$a15-pdp-detail-shot$&fit=constrain&qlt=80&wid=100",
-            "https://images.urbndata.com/is/image/Anthropologie/4130920080028_089_b3?$a15-pdp-detail-shot$&fit=constrain&qlt=80&wid=100",
-            "https://images.urbndata.com/is/image/Anthropologie/4130920080028_089_b4?$a15-pdp-detail-shot$&fit=constrain&qlt=80&wid=100"
-          ]
-        },
-        {
-          "id": 1,
-          "image": "https://images.urbndata.com/is/image/Anthropologie/4130920080028_089_b?$a15-pdp-detail-shot$&fit=constrain&qlt=80&wid=900",
-          "title": "Plenty by Tracy Reese Checkered Maxi Dress",
-          "price": "$248.00",
-          "color": [
-            "https://images.urbndata.com/is/image/Anthropologie/4130920080028_089_s?fit=constrain&hei=56&qlt=75"
-          ],
-          "otherimg": [
-            "https://images.urbndata.com/is/image/Anthropologie/4130920080028_089_b?$a15-pdp-detail-shot$&fit=constrain&qlt=80&wid=100",
-            "https://images.urbndata.com/is/image/Anthropologie/4130920080028_089_b2?$a15-pdp-detail-shot$&fit=constrain&qlt=80&wid=100",
-            "https://images.urbndata.com/is/image/Anthropologie/4130920080028_089_b3?$a15-pdp-detail-shot$&fit=constrain&qlt=80&wid=100",
-            "https://images.urbndata.com/is/image/Anthropologie/4130920080028_089_b4?$a15-pdp-detail-shot$&fit=constrain&qlt=80&wid=100"
-          ]
-        },
-        {
-          "id": 1,
-          "image": "https://images.urbndata.com/is/image/Anthropologie/4130920080028_089_b?$a15-pdp-detail-shot$&fit=constrain&qlt=80&wid=900",
-          "title": "Plenty by Tracy Reese Checkered Maxi Dress",
-          "price": "$248.00",
-          "color": [
-            "https://images.urbndata.com/is/image/Anthropologie/4130920080028_089_s?fit=constrain&hei=56&qlt=75"
-          ],
-          "otherimg": [
-            "https://images.urbndata.com/is/image/Anthropologie/4130920080028_089_b?$a15-pdp-detail-shot$&fit=constrain&qlt=80&wid=100",
-            "https://images.urbndata.com/is/image/Anthropologie/4130920080028_089_b2?$a15-pdp-detail-shot$&fit=constrain&qlt=80&wid=100",
-            "https://images.urbndata.com/is/image/Anthropologie/4130920080028_089_b3?$a15-pdp-detail-shot$&fit=constrain&qlt=80&wid=100",
-            "https://images.urbndata.com/is/image/Anthropologie/4130920080028_089_b4?$a15-pdp-detail-shot$&fit=constrain&qlt=80&wid=100"
-          ]
-        },
-        {
-          "id": 1,
-          "image": "https://images.urbndata.com/is/image/Anthropologie/4130920080028_089_b?$a15-pdp-detail-shot$&fit=constrain&qlt=80&wid=900",
-          "title": "Plenty by Tracy Reese Checkered Maxi Dress",
-          "price": "$248.00",
-          "color": [
-            "https://images.urbndata.com/is/image/Anthropologie/4130920080028_089_s?fit=constrain&hei=56&qlt=75"
-          ],
-          "otherimg": [
-            "https://images.urbndata.com/is/image/Anthropologie/4130920080028_089_b?$a15-pdp-detail-shot$&fit=constrain&qlt=80&wid=100",
-            "https://images.urbndata.com/is/image/Anthropologie/4130920080028_089_b2?$a15-pdp-detail-shot$&fit=constrain&qlt=80&wid=100",
-            "https://images.urbndata.com/is/image/Anthropologie/4130920080028_089_b3?$a15-pdp-detail-shot$&fit=constrain&qlt=80&wid=100",
-            "https://images.urbndata.com/is/image/Anthropologie/4130920080028_089_b4?$a15-pdp-detail-shot$&fit=constrain&qlt=80&wid=100"
-          ]
-        },
-        {
-          "id": 1,
-          "image": "https://images.urbndata.com/is/image/Anthropologie/4130920080028_089_b?$a15-pdp-detail-shot$&fit=constrain&qlt=80&wid=900",
-          "title": "Plenty by Tracy Reese Checkered Maxi Dress",
-          "price": "$248.00",
-          "color": [
-            "https://images.urbndata.com/is/image/Anthropologie/4130920080028_089_s?fit=constrain&hei=56&qlt=75"
-          ],
-          "otherimg": [
-            "https://images.urbndata.com/is/image/Anthropologie/4130920080028_089_b?$a15-pdp-detail-shot$&fit=constrain&qlt=80&wid=100",
-            "https://images.urbndata.com/is/image/Anthropologie/4130920080028_089_b2?$a15-pdp-detail-shot$&fit=constrain&qlt=80&wid=100",
-            "https://images.urbndata.com/is/image/Anthropologie/4130920080028_089_b3?$a15-pdp-detail-shot$&fit=constrain&qlt=80&wid=100",
-            "https://images.urbndata.com/is/image/Anthropologie/4130920080028_089_b4?$a15-pdp-detail-shot$&fit=constrain&qlt=80&wid=100"
-          ]
-        },
-        {
-          "id": 1,
-          "image": "https://images.urbndata.com/is/image/Anthropologie/4130920080028_089_b?$a15-pdp-detail-shot$&fit=constrain&qlt=80&wid=900",
-          "title": "Plenty by Tracy Reese Checkered Maxi Dress",
-          "price": "$248.00",
-          "color": [
-            "https://images.urbndata.com/is/image/Anthropologie/4130920080028_089_s?fit=constrain&hei=56&qlt=75"
-          ],
-          "otherimg": [
-            "https://images.urbndata.com/is/image/Anthropologie/4130920080028_089_b?$a15-pdp-detail-shot$&fit=constrain&qlt=80&wid=100",
-            "https://images.urbndata.com/is/image/Anthropologie/4130920080028_089_b2?$a15-pdp-detail-shot$&fit=constrain&qlt=80&wid=100",
-            "https://images.urbndata.com/is/image/Anthropologie/4130920080028_089_b3?$a15-pdp-detail-shot$&fit=constrain&qlt=80&wid=100",
-            "https://images.urbndata.com/is/image/Anthropologie/4130920080028_089_b4?$a15-pdp-detail-shot$&fit=constrain&qlt=80&wid=100"
-          ]
-        },
-        {
-          "id": 1,
-          "image": "https://images.urbndata.com/is/image/Anthropologie/4130920080028_089_b?$a15-pdp-detail-shot$&fit=constrain&qlt=80&wid=900",
-          "title": "Plenty by Tracy Reese Checkered Maxi Dress",
-          "price": "$248.00",
+          "price": "248.00",
           "color": [
             "https://images.urbndata.com/is/image/Anthropologie/4130920080028_089_s?fit=constrain&hei=56&qlt=75"
           ],
@@ -146,6 +23,7 @@
           ]
         }
       ]
+       
     },
     {
       "id": 2,
@@ -158,7 +36,7 @@
           "id": 1,
           "image": "https://images.urbndata.com/is/image/Anthropologie/4130920080028_089_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
           "title": "Plenty by Tracy Reese Checkered Maxi Dress",
-          "price": "$248:00",
+          "price": "248:00",
           "color": [
             {
               "colorsimg": "https://images.urbndata.com/is/image/Anthropologie/4130920080028_089_s?fit=constrain&hei=56&qlt=75"
@@ -169,7 +47,7 @@
           "id": 2,
           "image": "https://images.urbndata.com/is/image/Anthropologie/4130920080028_089_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
           "title": "Plenty by Tracy Reese Checkered Maxi Dress",
-          "price": "$248:00",
+          "price": "248:00",
           "color": [
             {
               "colorsimg": "https://images.urbndata.com/is/image/Anthropologie/4130920080028_089_s?fit=constrain&hei=56&qlt=75"
@@ -184,7 +62,7 @@
       "id": 1,
       "image": "https://images.urbndata.com/is/image/Anthropologie/4130920080028_089_b?$a15-pdp-detail-shot$&fit=constrain&qlt=80&wid=900",
       "title": "Plenty by Tracy Reese Checkered Maxi Dress",
-      "price": "$248.00",
+      "price": "248.00",
       "color": [
         "https://images.urbndata.com/is/image/Anthropologie/4130920080028_089_s?fit=constrain&hei=56&qlt=75"
       ],
@@ -197,7 +75,7 @@
     },
     {
       "title": "Plenty by Tracy Reese Halter Maxi Dress",
-      "price": "$248.00",
+      "price": "248.00",
       "image": "https://images.urbndata.com/is/image/Anthropologie/4130920080027_018_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
       "color": [
         "https://images.urbndata.com/is/image/Anthropologie/4130920080027_018_s?fit=constrain&hei=56&qlt=75"
@@ -212,7 +90,7 @@
     },
     {
       "title": "Hope For Flowers Pop-Pink Halter Maxi Dress",
-      "price": "$350.00",
+      "price": "350.00",
       "image": "https://images.urbndata.com/is/image/Anthropologie/4130920080021_266_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
       "color": [
         "https://images.urbndata.com/is/image/Anthropologie/4130920080021_266_s?fit=constrain&hei=56&qlt=75"
@@ -227,7 +105,7 @@
     },
     {
       "title": "Plenty by Tracy Reese Preppy Tube Mini Dress",
-      "price": "$190.00",
+      "price": "190.00",
       "image": "https://images.urbndata.com/is/image/Anthropologie/4130920080026_009_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
       "color": [
         "https://images.urbndata.com/is/image/Anthropologie/4130920080026_009_s?fit=constrain&hei=56&qlt=75"
@@ -242,7 +120,7 @@
     },
     {
       "title": "Blue Tassel High-low Mini Dress",
-      "price": "$148.00",
+      "price": "148.00",
       "image": "https://images.urbndata.com/is/image/Anthropologie/4130226850017_066_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
       "color": [
         "https://images.urbndata.com/is/image/Anthropologie/4130226850017_066_s?fit=constrain&hei=56&qlt=75"
@@ -257,7 +135,7 @@
     },
     {
       "title": "If By Sea Cutout Halter Jumpsuit",
-      "price": "$170.00",
+      "price": "170.00",
       "image": "https://images.urbndata.com/is/image/Anthropologie/4123612870011_033_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
       "color": [
         "https://images.urbndata.com/is/image/Anthropologie/4123612870011_033_s?fit=constrain&hei=56&qlt=75"
@@ -272,7 +150,7 @@
     },
     {
       "title": "Gilner Farrar Peasant Popover Blouse",
-      "price": "$198.00",
+      "price": "198.00",
       "image": "https://images.urbndata.com/is/image/Anthropologie/4110934880001_089_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
       "color": [
         "https://images.urbndata.com/is/image/Anthropologie/4110934880001_089_s?fit=constrain&hei=56&qlt=75",
@@ -288,7 +166,7 @@
     },
     {
       "title": "By Anthropogie V-Neck Maxi Drama Dress",
-      "price": "$98.00",
+      "price": "98.00",
       "image": "https://images.urbndata.com/is/image/Anthropologie/69483980_009_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
       "color": [
         "https://images.urbndata.com/is/image/Anthropologie/69483980_009_s?fit=constrain&hei=56&qlt=75"
@@ -303,7 +181,7 @@
     },
     {
       "title": "Pilcro Tavi Buttondown Blouse",
-      "price": "$98.00",
+      "price": "98.00",
       "image": "https://images.urbndata.com/is/image/Anthropologie/4110652010043_079_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
       "color": [
         "https://images.urbndata.com/is/image/Anthropologie/4110652010043_059_s?fit=constrain&hei=56&qlt=75",
@@ -320,7 +198,7 @@
     },
     {
       "title": "Maeve Slim Side-Slit Midi Skirt",
-      "price": "$110.00",
+      "price": "110.00",
       "image": "https://images.urbndata.com/is/image/Anthropologie/4120647160021_089_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
       "color": [
         "https://images.urbndata.com/is/image/Anthropologie/4120647160021_089_s?fit=constrain&hei=56&qlt=75",
@@ -336,7 +214,7 @@
     },
     {
       "title": "By Anthropologie V-Neck Ruched Front Maxi Dress",
-      "price": "$170.00",
+      "price": "170.00",
       "image": "https://images.urbndata.com/is/image/Anthropologie/4130647160138_018_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
       "color": [
         "https://images.urbndata.com/is/image/Anthropologie/4130647160138_018_s?fit=constrain&hei=56&qlt=75"
@@ -351,7 +229,7 @@
     },
     {
       "title": "Tiny Venus Knit Wrap Top",
-      "price": "$98.00",
+      "price": "98.00",
       "image": "https://images.urbndata.com/is/image/Anthropologie/4112017560192_026_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
       "color": [
         "https://images.urbndata.com/is/image/Anthropologie/4112017560192_026_s?fit=constrain&hei=56&qlt=75"
@@ -366,7 +244,7 @@
     },
     {
       "title": "Avec Les Files Elastic Waist Boyfriend Shorts",
-      "price": "$98.00",
+      "price": "98.00",
       "image": "https://images.urbndata.com/is/image/Anthropologie/4112017560192_026_s?fit=constrain&hei=56&qlt=75",
       "color": [
         "https://images.urbndata.com/is/image/Anthropologie/4112609690221_011_s?fit=constrain&hei=56&qlt=75"
@@ -381,7 +259,7 @@
     },
     {
       "title": "T.La Ribbed Halter Tank",
-      "price": "$48.00-$59.00",
+      "price": "48.00-$59.00",
       "image": "https://images.urbndata.com/is/image/Anthropologie/4112609690221_011_b15?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
       "color": [
         "https://images.urbndata.com/is/image/Anthropologie/4112609690221_008_s?fit=constrain&hei=56&qlt=75",
@@ -397,7 +275,7 @@
     },
     {
       "title": "By Anthropologie Utility Pants",
-      "price": "$148.00",
+      "price": "148.00",
       "image": "https://images.urbndata.com/is/image/Anthropologie/4123582180016_037_b14?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
       "color": [
         "https://images.urbndata.com/is/image/Anthropologie/4123582180016_037_s?fit=constrain&hei=56&qlt=75"
@@ -412,7 +290,7 @@
     },
     {
       "title": "Mon Renn Quinn Shorts ",
-      "price": "$149.00",
+      "price": "149.00",
       "image": "https://images.urbndata.com/is/image/Anthropologie/4125934910003_016_b14?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
       "color": [
         "https://images.urbndata.com/is/image/Anthropologie/4125934910003_016_s?fit=constrain&hei=56&qlt=75"
@@ -427,7 +305,7 @@
     },
     {
       "title": "Donn Silk Buttondown",
-      "price": "$297.00",
+      "price": "297.00",
       "image": "https://images.urbndata.com/is/image/Anthropologie/4110356690001_001_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
       "color": [
         "https://images.urbndata.com/is/image/Anthropologie/4110356690001_001_s?fit=constrain&hei=56&qlt=75",
@@ -443,7 +321,7 @@
     },
     {
       "title": "Pilcro Gauzy Buttondown",
-      "price": "$98.00",
+      "price": "98.00",
       "image": "https://images.urbndata.com/is/image/Anthropologie/4110916210091_001_b3?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
       "color": [
         "https://images.urbndata.com/is/image/Anthropologie/4110916210091_001_s?fit=constrain&hei=56&qlt=75",
@@ -459,7 +337,7 @@
     },
     {
       "title": "Favourite Daughter Favourite Shorts",
-      "price": "$148.00",
+      "price": "148.00",
       "image": "https://images.urbndata.com/is/image/Anthropologie/4125929840006_001_b14?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
       "color": [
         "https://images.urbndata.com/is/image/Anthropologie/4110916210091_001_s?fit=constrain&hei=56&qlt=75"
@@ -472,7 +350,7 @@
     },
     {
       "title": "Mon Renn Leone Pants",
-      "price": "$199.00",
+      "price": "199.00",
       "image": "https://images.urbndata.com/is/image/Anthropologie/4123934910001_070_b14?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
       "color": [
         "https://images.urbndata.com/is/image/Anthropologie/4123934910001_070_s?fit=constrain&hei=56&qlt=75"
@@ -487,7 +365,7 @@
     },
     {
       "title": "Cloth & Stone Long-Sleeve Pullover",
-      "price": "$98.00",
+      "price": "98.00",
       "image": "https://images.urbndata.com/is/image/Anthropologie/4110259830471_010_b14?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
       "color": [
         "https://images.urbndata.com/is/image/Anthropologie/4123934910001_070_s?fit=constrain&hei=56&qlt=75"
@@ -502,7 +380,7 @@
     },
     {
       "title": "Hutch Classic Vest",
-      "price": "$148.00",
+      "price": "148.00",
       "image": "https://images.urbndata.com/is/image/Anthropologie/4115464030020_029_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
       "color": [
         "https://images.urbndata.com/is/image/Anthropologie/4115464030020_029_s?fit=constrain&hei=56&qlt=75",

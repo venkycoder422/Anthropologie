@@ -75,7 +75,10 @@ const ProductsShow=()=>{
         <div className="Main-outside-div">
         
          <div className="productMainImage">
-                {/* <div className="otherimg"> 
+               
+                {
+                  productDetails && productDetails.otherimg  ? 
+                <div className="otherimg">  
               
            <img src={productDetails.otherimg[0]} alt="" /> 
            <br />
@@ -85,8 +88,9 @@ const ProductsShow=()=>{
           <br />
           <img src={productDetails.otherimg[3]} alt="" />   
           
-          </div>     */}
-           
+          </div> 
+          : null    
+                  }
              {/* <div className="product-big-image"> */}
                <img src={productDetails.image} alt="" />  
                {/* </div> */}
