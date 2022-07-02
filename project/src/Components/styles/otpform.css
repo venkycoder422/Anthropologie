@@ -1,0 +1,72 @@
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+}
+
+.otpMain{
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        margin: auto;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        height: 500px;
+        overflow-y: scroll;
+        text-align: center;
+}
+.otpMain p{
+    width: 80%;
+    margin-left: 50px;
+}
+.otpMain h2{
+    color: gray;
+}
+
+.otpform{
+    display: flex;
+    flex-direction: column;
+
+}
+.otpform input {
+    width: 80%;
+    /* margin-left: -0px; */
+}
+
+.termsCondition{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+
+}
+.termsCondition span{
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.closeMark{
+    width: 20px;
+    height: 15px;
+    margin: 20px 5px 10px 10px;
+    margin-left: 500px;
+}
+
+
+
+.otpform input{
+    width: 80%;
+    margin: auto;
+    padding: 5px;
+    margin-top: 10px;
+}
+.hr{
+    background-color: gray;
+    width: 80%;
+ 
+}
+.nextbtn{
+    background-color: darkslateblue;
+    border: none;
+    border-radius: 10px;
+    color : white;
+}

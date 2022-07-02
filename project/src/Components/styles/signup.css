@@ -1,0 +1,69 @@
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+
+}
+
+.signInMain{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 450px;
+    padding-bottom: 30px;
+    overflow-x: scroll;
+}
+
+.fixcss{
+    text-align: center;
+}
+
+.policy{
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.SignInhr{
+    width: 80%;
+    margin: auto;
+    margin-top: -1px;
+}
+
+.selectNumber{
+    height: 29px;
+    margin-top: 2px;
+    width: 60px;
+}
+.signupnumber{
+    margin-top: 15px;
+    margin-left: -50px;
+    width: 420px;
+
+}
+
+.signInButton{
+    background-color: rgba(69, 65, 94, 0.993);
+    margin-top: 130px;
+}
+
+.SIGNIN{
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+}
+.SIGNIN:hover{
+    background-color: rgba(69, 65, 94, 0.993); 
+    border:none;
+    border-radius: 10px;
+
+}
+.closeMark{
+    width: 20px;
+    height: 15px;
+    margin: 20px 5px 10px 10px;
+    margin-left: 500px;
+}

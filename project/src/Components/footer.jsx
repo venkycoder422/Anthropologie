@@ -16,7 +16,7 @@ export const Footer = () => {
             <div className="footerMain">
                 <div style={{display:"flex",paddingTop:"15px",justifyContent:"space-around"}}>
                     <div>
-                        <h2 style={{marginLeft:"-60%"}}>Sign Up for Email</h2>
+                        <h2 style={{marginLeft:"0%"}}>Sign Up for Email</h2>
                         <p>Receive early access to new arrivals, sales, exclusive content, events and much more!</p>
 
 
@@ -24,7 +24,7 @@ export const Footer = () => {
                     <div style={{display:"flex"}}>
                         <div>
                             <form>
-                                <label style={{marginLeft:"-80%"}}>Email:</label><br />
+                                <label style={{marginLeft:"0"}}>Email:</label><br />
                                 <input className = "footerInput" type="text"></input>
                                 <button className="footerSubmit" >SUBMIT</button>
                             </form>

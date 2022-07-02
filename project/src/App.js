@@ -8,10 +8,23 @@ import  {Cloths} from "./Components/Cloths"
 import { NewDresses } from './Components/NewDresses';
 import {CartPage} from "./Components/CartPage"
 import {SignInSignUp} from "./Components/SignInSignUp";
+import Signup from './Components/Signup';
+import './App.css';
+import { useSelector } from 'react-redux';
+import MobileSign from './Components/MobileSign';
+import MobileOtp from './Components/MobileOtp';
+
+import PaymentPage from './Components/PaymentPage';
+import OrderConfirm from './Components/OrderConfirm';
+
+import ProductsShow from "./Components/SecondPageClothing"
+import ShowDataCart from "./Components/CheckOut"
 
 
 
 function App() {
+  const signup = useSelector(state =>state.users);
+  console.log(signup)
   return (
     <>
     <Navbar />
@@ -20,7 +33,17 @@ function App() {
      <Route path="/Cloths" element={ <Cloths />}></Route>
      <Route path="/NewDresses" element={ < NewDresses/>}></Route> 
      <Route path="/SignInSignUp" element={ <SignInSignUp />}></Route> 
-     <Route path="/new_clothing/:id"  element={<CartPage />}> </Route>
+     
+     <Route path = "/signup" element = {<Signup />}></Route>
+        <Route path = "/mobile" element = {<MobileSign/>} ></Route>
+        <Route path='/mobileotp' element = {<MobileOtp />}></Route>
+        
+        <Route path='/PaymentPage' element = {<PaymentPage />}></Route>
+        <Route path = "/orderconfirm" element = {<OrderConfirm />}></Route>
+      
+        <Route path = "/CheckOut" element = {<ShowDataCart />}></Route>
+        
+        <Route path="/new_clothing/:id"  element={<ProductsShow />}> </Route>
      {/* <Route path="/A" element={ <NewShop />}></Route> 
      <Route path="/B" element={ <NewShop />}></Route> 
      <Route path="/C" element={ <NewShop />}></Route> 

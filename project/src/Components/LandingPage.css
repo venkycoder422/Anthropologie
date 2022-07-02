@@ -16,18 +16,19 @@ text-decoration: none;
 }
 
 .item1{grid-area: ShopNew_img;
-        height:700px; 
+        height:800px; 
 }
 .item2{
     grid-area:Shoe_img;
     
 }
-.item3{grid-area:Jackets;
-        margin-top: -350px;
-        height:600px}
-.item4{grid-area:Pants;
-    margin-top: -350px;
-    height:600px}
+.item3{grid-area: Jackets;
+    margin-top: -380px;
+    height: 620px;}
+.item4{
+    grid-area: Pants;
+    margin-top: -380px;
+    height: 620px;}
 .item5{grid-area:Decor;
     
 }
@@ -50,7 +51,7 @@ text-decoration: none;
                         "FanFave FanFave FanFave"
 }
 
-.MainDiv>div{
+.MainDiv div{
     background-color: aquamarine;
 }
 .MainDiv img{
@@ -91,7 +92,7 @@ text-decoration: none;
     border: none;
 }
 .MayLikeDiv>div img{
-    width:250px;
+    width:300px;
     height:328px;
 }
 /* .Trending{
@@ -102,11 +103,13 @@ text-decoration: none;
    
     position: relative;
     top:200px;
+    cursor: pointer;
 }
 .leftarrow2{
     position: relative;
     float:right;
     top:-350px;
+    cursor: pointer;
     
 }
 

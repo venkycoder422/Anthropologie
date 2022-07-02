@@ -1,0 +1,89 @@
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+
+}
+
+.signInMain{
+    display: flex;
+    flex-direction: column;
+    /* width: 40%; */
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    overflow-y: scroll;
+    height: 300px;
+    text-align: center;
+    
+}
+.signInMain h2{
+    color: rgb(99, 95, 95);
+}
+
+.SIgnInForm input{
+  width: 80%;
+  margin: auto;
+  height: 30px;
+  margin-bottom: 20px
+}
+
+.SIgnInForm label {
+    margin-left: -380px;
+}
+
+.signInhr{
+  background-color: rgba(41, 20, 20, 0.089);
+  width: 80%;
+}
+.signInPara {
+    width: 80%;
+    margin: 20px 30px 30px 50px;
+
+}
+
+.signInButton{
+    width: 85%;
+    margin: auto;
+    background-color: rgba(69, 65, 94, 0.993);
+    height: 40px;
+    margin-top: 40px;
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+
+}
+
+.signInMobile{
+    width: 82%;
+    margin: auto;
+    height: 40px;
+    margin-top: 30px;
+    font-size: 15px;
+}
+.signInMobile:hover {
+    background-color: rgba(69, 65, 94, 0.993);
+    border: none;
+    border-radius: 15px;
+}
+.createAnAccount{
+    width: 82%;
+    margin: auto;
+    height: 40px;
+    margin-top: 10px;
+    font-size: 15px;
+    /* border: none; */
+    border-radius: 4px;
+
+}
+.createAnAccount:hover{
+    background-color: rgba(69, 65, 94, 0.993);
+    border: none;
+    border-radius: 10px;
+    
+}
+.closeMark{
+    width: 20px;
+    height: 15px;
+    margin: 20px 5px 10px 10px;
+    margin-left: 500px;
+}

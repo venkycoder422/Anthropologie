@@ -88,27 +88,18 @@ const LandingPageTitle=styled.p`
 const PER_PAGE=10;
 
 const LandingPage = () => {
-  const [CurrentPage,setCurrentPage]= React.useState(0);
+  
   const [data, setData] = React.useState([]);
-
+  
   React.useEffect(() => {
-    fetch(`http://localhost:3000/new_clothing/?limit=10`)
+    fetch(`http://localhost:5000/new_clothing/?limit=10`)
       .then((res) => res.json())
       .then((res) => setData(res))
       .catch((err) => console.log(err))
   }, [])
 // ********Pagination code*******
-  function HandleClickPage({selected:selectedPage}){
-    console.log("selected",selectedPage);
-    setCurrentPage(selectedPage);
-  }
-  const offset = CurrentPage * PER_PAGE;
-  console.log("offset",offset);
-
-const pageCount= Math.ceil(data.length/PER_PAGE)
-
-console.log()
-
+  
+const { current, pages, display, next, previous } = usePagination({ items: data, size: 5 });
 
 
   return (
@@ -151,12 +142,12 @@ console.log()
       <div>
         <YouMayLike>You May Also Like</YouMayLike>
         <hr></hr>
-       <div className='leftarrow1'><img src={LeftArrow}></img></div>
+       <div className='leftarrow1' onClick={previous}><img src={LeftArrow}></img></div>
         <div className="MayLikeDiv">
 
           {
 
-            data.map((data) => (
+            display.map((data) => (
               <>
                 <div>
                   <Link className='Links' to={`/new_clothing/${data.id}`}>
@@ -171,7 +162,7 @@ console.log()
             ))
           }
         </div>
-       <div className='leftarrow2'><img src={LeftArrow}></img></div> 
+       <div className='leftarrow2' onClick={next}><img src={LeftArrow}></img></div> 
       </div>
       {/* TRENDING */}
       {/* <div className="Trending">
@@ -180,12 +171,12 @@ console.log()
       <div className='Trending'>
         <YouMayLike>Trending</YouMayLike>
         <hr></hr>
-        <div className='leftarrow1'><img src={LeftArrow} ></img></div>
+        <div className='leftarrow1'  onClick={previous}><img src={LeftArrow} ></img></div>
         <div className="MayLikeDiv">
 
           {
 
-            data.map((data) => (
+            display.map((data) => (
               <>
                 <div>
 
@@ -198,7 +189,7 @@ console.log()
             ))
           }
         </div>
-        <div className='leftarrow2'><img src={LeftArrow}></img></div>
+        <div className='leftarrow2' onClick={next}><img src={LeftArrow}></img></div>
       </div>
       <div className='MoreToExplore'>
         <MoreToExplore>More To Explore</MoreToExplore>
