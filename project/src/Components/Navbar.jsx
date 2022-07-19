@@ -9,13 +9,14 @@ import anthrologo2 from "./images/anthro-logo2.svg"
 import SearchIcon from "./images/SearchIcon.png"
 import CartIcon from "./images/CartIcon.png"
 import SignInSignUp from "./SignInSignUp";
+import { SearchCloths } from './SearchPage'
 export const Navbar = () => {
     const NavbarWrapper=styled.div`
     margin: 20px 50px 0px 50px;
     position:sticky;
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
     `;
-
+const [search,setSearch] = React.useState('');
     
   return (
     <>
@@ -31,7 +32,7 @@ export const Navbar = () => {
       </div>
       <div className='SearchBox'>
         <div>
-            <input className="InputSearch" aria-label='Search' placeholder='Search Anthropologie'></input>
+            <input className="InputSearch" value={search} onChange={(e)=>setSearch(e.target.value)} aria-label='Search' placeholder='Search Anthropologie'></input>
         </div>
         <div><button className='SearchButton_Transparent'><img src={SearchIcon}></img></button></div>
         
@@ -41,7 +42,7 @@ export const Navbar = () => {
     <hr style={{margin:"0px"}}></hr>
     <div className='AccessingCategory'>
       <ul>
-        <Link style={{textDecoration:"none"}}to="/Cloths"><li>New!</li></Link>
+        <Link style={{textDecoration:"none"}} to="/Cloths"><li>New!</li></Link>
         <Link style={{textDecoration:"none"}} to="/Cloths"><li>Dresses</li></Link>
         <Link style={{textDecoration:"none"}} to="/Cloths"><li>Clothing</li></Link>
         <Link style={{textDecoration:"none"}} to="/Cloths"><li>Shoes</li></Link>
@@ -56,9 +57,7 @@ export const Navbar = () => {
       </ul>
     </div>
     <hr></hr>
-    </NavbarWrapper>
-    
-    
+    </NavbarWrapper>  
     </>
     
   )

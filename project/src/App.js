@@ -19,7 +19,7 @@ import OrderConfirm from './Components/OrderConfirm';
 
 import { SecondPageClothing } from './Components/SecondPageClothing';
 import {ShowDataCart} from "./Components/CheckOut"
-
+import {searchCloths} from "./Components/SearchPage";
 
 
 function App() {
@@ -42,7 +42,7 @@ function App() {
         <Route path = "/orderconfirm" element = {<OrderConfirm />}></Route>
       
         <Route path = "/CheckOut" element = {<ShowDataCart />}></Route>
-        
+        {/* <Route path = "/SearchPage" element = {<searchCloths />}></Route> */}
         <Route path="/new_clothing/:id"  element={<SecondPageClothing/>}> </Route>
      {/* <Route path="/A" element={ <NewShop />}></Route> 
      <Route path="/B" element={ <NewShop />}></Route> 
