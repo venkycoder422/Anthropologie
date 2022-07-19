@@ -2,18 +2,19 @@ import React from 'react';
 import { useDispatch } from 'react-redux';
 import "./styles/SignInSignUp.css";
 import { v4 as uuid } from 'uuid';
-import { Link, Navigate, unstable_HistoryRouter } from 'react-router-dom';
+import { Link, unstable_HistoryRouter} from 'react-router-dom';
 import { useState } from 'react';
-
+import { useNavigate } from 'react-router-dom';
 
 export function SignInSignUp() {
     const [mail, setmail] = useState("");
     const [data1,setdata] = useState([]);
+ 
     const dispatch = useDispatch();
-
+    const  Navigate=useNavigate()
 
     React.useEffect(()=>{
-        fetch(`http://localhost:5000/signUpDetails`)
+        fetch(`https://anthropologie.herokuapp.com/signUpDetails`)
         .then((res)=>res.json())
         .then((res)=>setdata(res))
         .catch((err)=>console.log(err));
@@ -30,6 +31,7 @@ export function SignInSignUp() {
    
 
     const login =  () => {
+        
         dispatch({
             type: "LOGIN",
             payload: {
@@ -54,7 +56,8 @@ export function SignInSignUp() {
         for(var i=0;i<data1.length;i++){
             if(data1[i].mail===mail){
                 alert("Sucessfully!");
-                return;
+                Navigate("/")
+                return
             }
         }
         alert("user not exist!")    

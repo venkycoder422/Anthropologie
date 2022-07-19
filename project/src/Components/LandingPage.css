@@ -23,17 +23,17 @@ text-decoration: none;
     
 }
 .item3{grid-area: Jackets;
-    margin-top: -380px;
+    margin-top: -276px;
     height: 620px;}
 .item4{
     grid-area: Pants;
-    margin-top: -380px;
+    margin-top: -276px;
     height: 620px;}
 .item5{grid-area:Decor;
     
 }
-.item6{grid-area:Kitchen;
-        margin-top: -150px;}
+.item6{grid-area: Kitchen;
+    margin-top: -58px;}
 .item7{grid-area:Jeans;
         height:400px;}
 .item8{grid-area:Getway;}
@@ -51,9 +51,8 @@ text-decoration: none;
                         "FanFave FanFave FanFave"
 }
 
-.MainDiv div{
-    background-color: aquamarine;
-}
+
+
 .MainDiv img{
     width:100%;
     height:100%;
@@ -68,6 +67,9 @@ text-decoration: none;
     /* overflow-x: scroll; */
     height:500px;
     padding: 5px;
+}
+.MayLikeDiv>div{
+    width:300px;
 }
 .MayLikeDiv button{
     /* width:100%;
@@ -92,7 +94,7 @@ text-decoration: none;
     border: none;
 }
 .MayLikeDiv>div img{
-    width:300px;
+    width:100%;
     height:328px;
 }
 /* .Trending{
@@ -110,14 +112,25 @@ text-decoration: none;
     float:right;
     top:-350px;
     cursor: pointer;
+    left:40px;
     
 }
-
-.leftarrow1>img{
+.leftarrow1>button{
+    width:3%;
+    margin-left:5px ;
+    
+}
+.leftarrow1>button>img{
     width:20px;
     height:40px;
+    margin-left: -30%;
 }
-.leftarrow2>img{
+.leftarrow2>button{
+    width:87%;
+    margin-left: -112%
+    
+}
+.leftarrow2>button>img{
     width:20px;
     height:40px;
     transform: rotate(180deg);

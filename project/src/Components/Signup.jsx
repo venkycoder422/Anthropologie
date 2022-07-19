@@ -27,7 +27,9 @@ export default function () {
 
             }
         })
-        const res = await fetch(`http://localhost:5000/signUpDetails`,{
+
+        
+        const res = await fetch(`https://anthropologie.herokuapp.com/signUpDetails`,{
             method : "POST",
             body:JSON.stringify(details),
             headers :{

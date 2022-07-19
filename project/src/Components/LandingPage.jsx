@@ -92,7 +92,7 @@ const LandingPage = () => {
   const [data, setData] = React.useState([]);
   
   React.useEffect(() => {
-    fetch(`http://localhost:5000/new_clothing/?limit=10`)
+    fetch(`https://anthropologie.herokuapp.com/new_clothing/?limit=10`)
       .then((res) => res.json())
       .then((res) => setData(res))
       .catch((err) => console.log(err))
@@ -112,12 +112,15 @@ const { current, pages, display, next, previous } = usePagination({ items: data,
         </div>
         <div className='item2' >
           <img className="Shoe_img" src={Wedding} alt=""></img>
-          <Link to="/NewDresses" className='Links'><AccessButtons href="#">shop BHDLN weddings</AccessButtons></Link>
+          <Link to="/Cloths" className='Links'><AccessButtons href="#">shop BHDLN weddings</AccessButtons></Link>
         </div>
         <div className='item3'>
           <img src={Jackets} alt=""></img>
-          <AccessButtons href="#">shop Jackets</AccessButtons></div>
-        <div className='item4'><img src={Pants} alt=""></img><AccessButtons href="#">shop Jackets</AccessButtons>
+          <Link to="/Cloths" className='Links'><AccessButtons href="#">shop Jackets</AccessButtons></Link>
+        </div>
+        <div className='item4'>
+          <img src={Pants} alt=""></img>
+          <Link to="/Cloths"><AccessButtons href="#">shop Jackets</AccessButtons></Link>
         </div>
         <div className='item5'>
           <img src={Decors} alt=""></img>
@@ -142,7 +145,7 @@ const { current, pages, display, next, previous } = usePagination({ items: data,
       <div>
         <YouMayLike>You May Also Like</YouMayLike>
         <hr></hr>
-       <div className='leftarrow1' onClick={previous}><img src={LeftArrow}></img></div>
+       <div className='leftarrow1' ><button disabled={current===1} onClick={previous}><img src={LeftArrow}></img> </button></div>
         <div className="MayLikeDiv">
 
           {
@@ -162,7 +165,7 @@ const { current, pages, display, next, previous } = usePagination({ items: data,
             ))
           }
         </div>
-       <div className='leftarrow2' onClick={next}><img src={LeftArrow}></img></div> 
+       <div className='leftarrow2' ><button disabled={current===pages} onClick={next}><img src={LeftArrow}></img></button></div> 
       </div>
       {/* TRENDING */}
       {/* <div className="Trending">
@@ -171,8 +174,8 @@ const { current, pages, display, next, previous } = usePagination({ items: data,
       <div className='Trending'>
         <YouMayLike>Trending</YouMayLike>
         <hr></hr>
-        <div className='leftarrow1'  onClick={previous}><img src={LeftArrow} ></img></div>
-        <div className="MayLikeDiv">
+        <div className='leftarrow1'><button onClick={previous}><img src={LeftArrow} ></img></button></div>
+         <div className="MayLikeDiv">
 
           {
 
@@ -189,7 +192,7 @@ const { current, pages, display, next, previous } = usePagination({ items: data,
             ))
           }
         </div>
-        <div className='leftarrow2' onClick={next}><img src={LeftArrow}></img></div>
+        <div className='leftarrow2'> <button onClick={next}><img src={LeftArrow}></img></button></div>
       </div>
       <div className='MoreToExplore'>
         <MoreToExplore>More To Explore</MoreToExplore>

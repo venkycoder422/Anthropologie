@@ -99,10 +99,10 @@ export default function PaymentPage() {
               <p>Total</p>
             </div>
             <div>
-              <p>dgd</p>
+              <p>348</p>
               <p>TBD</p>
               <p>$0.0</p>
-              <p>dgds</p>
+              <p>999</p>
             </div>
           </div>
 

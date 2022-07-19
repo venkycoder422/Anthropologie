@@ -160,28 +160,28 @@ fullimage:hover{background-color: aqua;}
         
     }
 
-.clothsleftarrow1{
+.clothsleftarrow1>button{
    
     position: relative;
-    top:10px;
+    top:5px;
     cursor: pointer;
    
 }
-.clothsleftarrow2{
+.clothsleftarrow2>button{
     position: relative;
-    height:30px;
-    top:10px;
+    height:50px;
+    top:5px;
     cursor: pointer;
 
     
 }
 
-.clothsleftarrow1 img{
+.clothsleftarrow1 > button > img{
     width:20px;
     height:40px;
 
 }
-.clothsleftarrow2 img{
+.clothsleftarrow2  > button > img{
     width:20px;
     height:40px;
     transform: rotate(180deg);

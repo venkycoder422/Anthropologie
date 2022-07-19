@@ -17,8 +17,8 @@ import MobileOtp from './Components/MobileOtp';
 import PaymentPage from './Components/PaymentPage';
 import OrderConfirm from './Components/OrderConfirm';
 
-import ProductsShow from "./Components/SecondPageClothing"
-import ShowDataCart from "./Components/CheckOut"
+import { SecondPageClothing } from './Components/SecondPageClothing';
+import {ShowDataCart} from "./Components/CheckOut"
 
 
 
@@ -43,7 +43,7 @@ function App() {
       
         <Route path = "/CheckOut" element = {<ShowDataCart />}></Route>
         
-        <Route path="/new_clothing/:id"  element={<ProductsShow />}> </Route>
+        <Route path="/new_clothing/:id"  element={<SecondPageClothing/>}> </Route>
      {/* <Route path="/A" element={ <NewShop />}></Route> 
      <Route path="/B" element={ <NewShop />}></Route> 
      <Route path="/C" element={ <NewShop />}></Route> 

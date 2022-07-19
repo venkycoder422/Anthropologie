@@ -21,32 +21,38 @@ background-color:aqua;
 
 const [clothingdata,setclothingdata]=React.useState([]);
 const { current, pages, display, next, previous } = usePagination({ items: clothingdata, size: 14 });
+
+const getData = () =>{
+    fetch(`https://anthropologie.herokuapp.com/new_clothing`)
+    .then((res)=>res.json())
+    .then((res)=>setclothingdata(res))
+    
+    .then((err)=>console.log(err))
+}
+
 React.useEffect(()=>{
-  fetch(`http://localhost:5000/new_clothing`)
-  .then((res)=>res.json())
-  .then((res)=>setclothingdata(res))
-  
-  .then((err)=>console.log(err))
+ getData()
 },[])
+
 
 const sorting = (e) => {
   const sorting = e.target.value;
-      const sortRes = clothingdata.sort((a, b) => {
-          if (sorting === "low") {
-              return +(a.price) > +(b.price) ? 1 : -1;
-          }
+  let arr = [...clothingdata]
 
-          if (sorting === "high") {
-              return +(a.price) < +(b.price) ? 1 : -1;
-          }
-
-          // if (sorting === "rating") {
-          //      return a.ratings < b.ratings ? 1 : -1;
-          // }
-      })
-      console.log("CLOTHS",clothingdata);
-      setclothingdata(sortRes)
+  console.log("working the sort")
+  if(sorting == "featured"){
+    getData()
+  }
+  if (sorting === "low") {
+    arr.sort((a,b) => a.price - b.price);
+    setclothingdata(arr);
+  }
+  if(sorting==="high") {
+    arr.sort((a,b) => b.price - a.price);
+    setclothingdata(arr);
+  }
   
+  console.log(clothingdata)
 }
 
 // console.log(clothingdata)
@@ -105,9 +111,9 @@ return (
                         
            
                
-                        <div className='clothsleftarrow1' disabled={current===1} onClick={previous}><img src={LeftArrow}></img></div>
+                        <div className='clothsleftarrow1'><button disabled={current===1} onClick={previous}><img src={LeftArrow}></img></button></div>
                         <div style={{marginTop:"15px"}}>{current}</div>
-                        <div className='clothsleftarrow2' disabled={current===pages} onClick={next}><img src={LeftArrow}></img></div>
+                        <div className='clothsleftarrow2'><button disabled ={current==pages}onClick={next}><img src={LeftArrow}></img></button></div>
             
                         </div>
                         {/* </div> */}

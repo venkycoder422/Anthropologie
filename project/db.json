@@ -2106,10 +2106,109 @@
   ],
   "signUpDetails": [
     {
-      "mail": "enjata@gmail.com",
+      "mail": "chinni2001@gmail.com",
       "number": "436688998990",
       "id": 1
+    },
+    {
+      "mail": "venky@gmail.com",
+      "number": "234567890",
+      "id": 2
     }
   ],
-  "signInDetails": []
+  "signInDetails": [],
+  "cartData": [
+    {
+      "title": "Plenty by Tracy Reese Halter Maxi Dress",
+      "price": "248.00",
+      "image": "https://images.urbndata.com/is/image/Anthropologie/4130920080027_018_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
+      "color": [
+        "https://images.urbndata.com/is/image/Anthropologie/4130920080027_018_s?fit=constrain&hei=56&qlt=75"
+      ],
+      "otherimg": [
+        "https://images.urbndata.com/is/image/Anthropologie/4130920080027_018_b?$a15-pdp-detail-shot$&fit=constrain&qlt=80&wid=100",
+        "https://images.urbndata.com/is/image/Anthropologie/4130920080027_018_b2?$a15-pdp-detail-shot$&fit=constrain&qlt=80&wid=100",
+        "https://images.urbndata.com/is/image/Anthropologie/4130920080027_018_b3?$a15-pdp-detail-shot$&fit=constrain&qlt=80&wid=100",
+        "https://images.urbndata.com/is/image/Anthropologie/4130920080027_018_b4?$a15-pdp-detail-shot$&fit=constrain&qlt=80&wid=100"
+      ],
+      "id": 2
+    },
+    {
+      "title": "Hope For Flowers Pop-Pink Halter Maxi Dress",
+      "price": "350.00",
+      "image": "https://images.urbndata.com/is/image/Anthropologie/4130920080021_266_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
+      "color": [
+        "https://images.urbndata.com/is/image/Anthropologie/4130920080021_266_s?fit=constrain&hei=56&qlt=75"
+      ],
+      "otherimg": [
+        "https://images.urbndata.com/is/image/Anthropologie/4130920080021_266_b?$a15-pdp-detail-shot$&fit=constrain&qlt=80&wid=100",
+        "https://images.urbndata.com/is/image/Anthropologie/4130920080021_266_b2?$a15-pdp-detail-shot$&fit=constrain&qlt=80&wid=100",
+        "https://images.urbndata.com/is/image/Anthropologie/4130920080021_266_b3?$a15-pdp-detail-shot$&fit=constrain&qlt=80&wid=100",
+        "https://images.urbndata.com/is/image/Anthropologie/4130920080021_266_b4?$a15-pdp-detail-shot$&fit=constrain&qlt=80&wid=100"
+      ],
+      "id": 3
+    },
+    {
+      "title": "Maeve Slim Side-Slit Midi Skirt",
+      "price": "110.00",
+      "image": "https://images.urbndata.com/is/image/Anthropologie/4120647160021_089_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
+      "color": [
+        "https://images.urbndata.com/is/image/Anthropologie/4120647160021_089_s?fit=constrain&hei=56&qlt=75",
+        "https://images.urbndata.com/is/image/Anthropologie/4120647160021_038_s?fit=constrain&hei=56&qlt=75"
+      ],
+      "otherimg": [
+        "https://images.urbndata.com/is/image/Anthropologie/4120647160021_089_b?$a15-pdp-detail-shot$&fit=constrain&qlt=80&wid=100",
+        "https://images.urbndata.com/is/image/Anthropologie/4120647160021_089_b2?$a15-pdp-detail-shot$&fit=constrain&qlt=80&wid=100",
+        "https://images.urbndata.com/is/image/Anthropologie/4120647160021_089_b3?$a15-pdp-detail-shot$&fit=constrain&qlt=80&wid=100",
+        "https://images.urbndata.com/is/image/Anthropologie/4120647160021_089_b4?$a15-pdp-detail-shot$&fit=constrain&qlt=80&wid=100"
+      ],
+      "id": 10
+    },
+    {
+      "title": "Donn Silk Buttondown",
+      "price": "297.00",
+      "image": "https://images.urbndata.com/is/image/Anthropologie/4110356690001_001_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
+      "color": [
+        "https://images.urbndata.com/is/image/Anthropologie/4110356690001_001_s?fit=constrain&hei=56&qlt=75",
+        "https://images.urbndata.com/is/image/Anthropologie/4110356690001_060_s?fit=constrain&hei=56&qlt=75"
+      ],
+      "otherimg": [
+        "https://images.urbndata.com/is/image/Anthropologie/4110356690001_001_b?$a15-pdp-detail-shot$&fit=constrain&qlt=80&wid=100",
+        "https://images.urbndata.com/is/image/Anthropologie/4110356690001_001_b1?$a15-pdp-detail-shot$&fit=constrain&qlt=80&wid=100",
+        "https://images.urbndata.com/is/image/Anthropologie/4110356690001_001_b2?$a15-pdp-detail-shot$&fit=constrain&qlt=80&wid=100",
+        "https://images.urbndata.com/is/image/Anthropologie/4110356690001_001_b4?$a15-pdp-detail-shot$&fit=constrain&qlt=80&wid=100"
+      ],
+      "id": 17
+    },
+    {
+      "id": 1,
+      "image": "https://images.urbndata.com/is/image/Anthropologie/4130920080028_089_b?$a15-pdp-detail-shot$&fit=constrain&qlt=80&wid=900",
+      "title": "Plenty by Tracy Reese Checkered Maxi Dress",
+      "price": "248.00",
+      "color": [
+        "https://images.urbndata.com/is/image/Anthropologie/4130920080028_089_s?fit=constrain&hei=56&qlt=75"
+      ],
+      "otherimg": [
+        "https://images.urbndata.com/is/image/Anthropologie/4130920080028_089_b?$a15-pdp-detail-shot$&fit=constrain&qlt=80&wid=100",
+        "https://images.urbndata.com/is/image/Anthropologie/4130920080028_089_b2?$a15-pdp-detail-shot$&fit=constrain&qlt=80&wid=100",
+        "https://images.urbndata.com/is/image/Anthropologie/4130920080028_089_b3?$a15-pdp-detail-shot$&fit=constrain&qlt=80&wid=100",
+        "https://images.urbndata.com/is/image/Anthropologie/4130920080028_089_b4?$a15-pdp-detail-shot$&fit=constrain&qlt=80&wid=100"
+      ]
+    },
+    {
+      "title": "Mon Renn Quinn Shorts ",
+      "price": "149.00",
+      "image": "https://images.urbndata.com/is/image/Anthropologie/4125934910003_016_b14?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
+      "color": [
+        "https://images.urbndata.com/is/image/Anthropologie/4125934910003_016_s?fit=constrain&hei=56&qlt=75"
+      ],
+      "otherimg": [
+        "https://images.urbndata.com/is/image/Anthropologie/4125934910003_016_b14?$a15-pdp-detail-shot$&fit=constrain&qlt=80&wid=100",
+        "https://images.urbndata.com/is/image/Anthropologie/4125934910003_016_b15?$a15-pdp-detail-shot$&fit=constrain&qlt=80&wid=100",
+        "https://images.urbndata.com/is/image/Anthropologie/4125934910003_016_b?$a15-pdp-detail-shot$&fit=constrain&qlt=80&wid=100",
+        "https://images.urbndata.com/is/image/Anthropologie/4125934910003_016_b2?$a15-pdp-detail-shot$&fit=constrain&qlt=80&wid=100"
+      ],
+      "id": 16
+    }
+  ]
 }
