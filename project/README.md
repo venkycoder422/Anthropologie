@@ -14,18 +14,12 @@ Anthropologie is a website which sells women clothings and home furnitures.
 
 https://user-images.githubusercontent.com/76251822/184294757-f7738622-d241-4c26-a68d-58ba9fa43a60.mp4
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Installation and Run Locally
+Install-project with git
+```
+$ git clone [copy-text-to-clipboard](https://github.com/venkycoder422/Anthropologie.git)
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
 The build is minified and the filenames include the hashes.\
@@ -34,6 +28,14 @@ Your app is ready to be deployed!
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 ### `npm run eject`
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 **Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
