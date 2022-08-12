@@ -11,7 +11,8 @@ Anthropologie.com
 Anthropologie is a website which sells women clothings and home furnitures.
 
 ## Demo:
-"C:\Users\swfn0\OneDrive\Documents\zoom\2022-08-12 11.32.07 d venkatesulu's zoom meeting\video1465185287.mp4"
+
+https://user-images.githubusercontent.com/76251822/184294757-f7738622-d241-4c26-a68d-58ba9fa43a60.mp4
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
