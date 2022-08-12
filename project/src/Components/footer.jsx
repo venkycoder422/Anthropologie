@@ -3,7 +3,7 @@ import React from 'react'
 
 export const Footer = () => {
     return (
-        <div>
+        <div style={{marginTop:"15%"}}>
             <hr className="hr"></hr>
             <h2 style={{ marginLeft: "-70%" }}>About Us</h2>
 

@@ -16,16 +16,20 @@ export const ShowDataCart = () => {
   console.log(cartState)
   return (
     <>
-      {
-        cartState.map((item) => {
-          return (
-            // console.log(item)
-            <div>
-              <div className="BasketOrder">
+     <div className="BasketOrder">
                 <p>Basket</p>
                 <p>Order Summary</p>
-              </div>
-              <hr width="950px" align="left" margin-top="-2px" />
+      </div>
+      {
+        
+        cartState.map((item) => {
+         
+              // <hr width="950px" align="left" margin-top="-2px" />
+          return (
+            // console.log(item)
+            <div className="main_div_checkOut">
+              
+             
               <div className="itemOrderSummary">
 
                 <div className="Item-ItemPrice">
@@ -61,6 +65,7 @@ export const ShowDataCart = () => {
                     </div>
                   </div>
                 </div>
+        
                 <div className="OrderSummary">
                   <div className="subtotal">
                     <p className="para">Subtotal</p>
@@ -76,7 +81,7 @@ export const ShowDataCart = () => {
 
                   </div>
                   <div className="estimatedtax">
-                    <p className="para">Estimated TAx</p>
+                    <p className="para">Estimated Tx</p>
                     <p className="para">$0.00</p>
                   </div>
                   <div className="subtotal">
@@ -88,7 +93,7 @@ export const ShowDataCart = () => {
                   </div>
                   <p>or 4 interest-free installments of $389.50 with</p>
                   <div className="klarnaorafterpay">
-                    <p className="klarna">Klarna.</p>
+                    <p className="klarna">PayNow.</p>
                     <p className="or">or</p>
                     <p className="afterpay">afterpay</p>
                   </div>

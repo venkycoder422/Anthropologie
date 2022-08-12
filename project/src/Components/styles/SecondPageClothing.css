@@ -3,7 +3,8 @@
     margin-left:70px;
     display: flex;
     width:1000px;
-     
+     position: relative;
+     top:160px;
     justify-content: space-around;
   
   }

@@ -2,10 +2,15 @@
     border:1px solid grey;
     /* margin-left: 4%; */
     width: 400px;
-    height: 400px;
+    height: 500px;
     border: 1px solid ridge;
     padding-left: 15px;
  
+ }
+ .main_div_checkOut{
+   width:100%;
+   display: flex;
+
  }
  #item{
     /* border:1px solid green; */
@@ -18,24 +23,23 @@
     font-size: 14px;
  }
  .BasketOrder{
- 
     /* border: 1px solid black; */
     display: flex;
-    justify-content: space-between;
-    width:1200px;
+    justify-content: space-around;
+    width:100%;
     color:var(--text-dark);
     font:20px/1.3 Avenir Medium,Sans-serif;
     letter-spacing:.12rem;
-    margin-top: 3%;
-    margin-left: 2%;
-    margin-bottom: -20px;
+    margin-top: 10%;
+    margin-left: 0%;
+    margin-bottom: -1%
     
  }
  .Item-ItemPrice{
     /* border: 1px solid black; */
     display: flex;
     justify-content: space-between;
-    width:900px;
+    width:100%;
     color:var(--text-dark);
     font:20px/1.3 Avenir Medium,Sans-serif;
     letter-spacing:.12rem;
@@ -45,17 +49,18 @@
   border:1px solid green;
   display: flex;
   justify-content: space-between;
-  width:1500px;
+  width:100%;
   color:var(--text-dark);
   font:20px/1.3 Avenir Medium,Sans-serif;
   letter-spacing:.12rem;
+  margin: 0% 5% 0% 5%;
   
  }
  .otherItem{
     /* border: 1px solid blue; */
     display: flex;
     justify-content: space-between;
-    width:400px;
+    width:40%;
     color:var(--text-dark);
     font:20px/1.3 Avenir Medium,Sans-serif;
     letter-spacing:.12rem;
@@ -106,20 +111,21 @@
  
  .klarnaorafterpay{
     /* border:1px solid blue; */
-    width: 150px;   
+
+    width: 100%;   
  }
  .klarnaorafterpay>p{
     font-size: 15px;
  }
  
  #checkout{
- border-color: grey;
+   border-color: grey;
     height: 45px;
     margin-top: 15px;
     width: 360px;
     color: white;
-    
-    margin-left: 20px;
+    margin-right: 10px;
+    margin-left: 0px;
     background-color: #4B5666;
  
     /* border-radius: 10px; */

@@ -88,20 +88,34 @@ const LandingPageTitle=styled.p`
 const PER_PAGE=10;
 
 const LandingPage = () => {
-  
+  const [TotalData, setTotalData] = React.useState([]);
   const [data, setData] = React.useState([]);
-  
+  const [data1, setData1] = React.useState([]);
+
+  const [trendingPage,settrendingPage] = React.useState(1);
+  const [likePage,setlikePage] = React.useState(1);
   React.useEffect(() => {
-    fetch(`https://anthropologie.herokuapp.com/new_clothing/?limit=10`)
+    fetch(`https://anthropologie.herokuapp.com/new_clothing`)
+      .then((res) => res.json())
+      .then((res) => setTotalData(res))
+      .catch((err) => console.log(err))
+    fetch(`https://anthropologie.herokuapp.com/new_clothing/?_page=${trendingPage}&_limit=5`)
       .then((res) => res.json())
       .then((res) => setData(res))
       .catch((err) => console.log(err))
-  }, [])
+      fetch(`https://anthropologie.herokuapp.com/new_clothing/?_page=${likePage}&_limit=5`)
+      .then((res) => res.json())
+      .then((res) => setData1(res))
+      .catch((err) => console.log(err))
+
+
+  }, [trendingPage,likePage])
 // ********Pagination code*******
   
-const { current, pages, display, next, previous } = usePagination({ items: data, size: 5 });
-
-
+// const { current, pages, display, next, previous } = usePagination({ items: data, size: 5 });
+console.log(TotalData);
+const n_pages= Math.ceil(TotalData.length/5);
+console.log(n_pages);
   return (
     <div className='MainPage'>
 
@@ -145,12 +159,12 @@ const { current, pages, display, next, previous } = usePagination({ items: data,
       <div>
         <YouMayLike>You May Also Like</YouMayLike>
         <hr></hr>
-       <div className='leftarrow1' ><button disabled={current===1} onClick={previous}><img src={LeftArrow}></img> </button></div>
+       <div className='leftarrow1' ><button disabled={likePage==1} onClick={()=>setlikePage(likePage-1)}><img src={LeftArrow}></img> </button></div>
         <div className="MayLikeDiv">
 
           {
 
-            display.map((data) => (
+            data1.map((data) => (
               <>
                 <div>
                   <Link className='Links' to={`/new_clothing/${data.id}`}>
@@ -165,7 +179,7 @@ const { current, pages, display, next, previous } = usePagination({ items: data,
             ))
           }
         </div>
-       <div className='leftarrow2' ><button disabled={current===pages} onClick={next}><img src={LeftArrow}></img></button></div> 
+       <div className='leftarrow2' ><button  disabled={likePage==n_pages} onClick={()=>setlikePage(likePage+1)}><img src={LeftArrow}></img></button></div> 
       </div>
       {/* TRENDING */}
       {/* <div className="Trending">
@@ -174,12 +188,12 @@ const { current, pages, display, next, previous } = usePagination({ items: data,
       <div className='Trending'>
         <YouMayLike>Trending</YouMayLike>
         <hr></hr>
-        <div className='leftarrow1'><button onClick={previous}><img src={LeftArrow} ></img></button></div>
+        <div className='leftarrow1'><button disabled={trendingPage==1}onClick={()=>settrendingPage(trendingPage-1)}><img src={LeftArrow} ></img></button></div>
          <div className="MayLikeDiv">
 
           {
 
-            display.map((data) => (
+            data.map((data) => (
               <>
                 <div>
 
@@ -192,7 +206,7 @@ const { current, pages, display, next, previous } = usePagination({ items: data,
             ))
           }
         </div>
-        <div className='leftarrow2'> <button onClick={next}><img src={LeftArrow}></img></button></div>
+        <div className='leftarrow2'> <button disabled={trendingPage===n_pages} onClick={()=>settrendingPage(trendingPage+1)}><img src={LeftArrow}></img></button></div>
       </div>
       <div className='MoreToExplore'>
         <MoreToExplore>More To Explore</MoreToExplore>
@@ -225,7 +239,7 @@ const { current, pages, display, next, previous } = usePagination({ items: data,
       <div>
         <HeadLine>About Us</HeadLine>
         <Information style={{padding:'2px'}}>Our mission at Anthropologie has always been to surprise and delight you with unexpected, distinctive finds for your closet and home. We source and craft all of our products with care, ensuring that any treasure you find at Anthropologie is unique, just like you. Explore our <Link to="/dress">dress shop</Link> to find styles and fits perfect for any occasi...
-<Link to="/ReadMore">Read More</Link></Information>
+        <Link to="/ReadMore">Read More</Link></Information>
       </div>
       </div>
       

@@ -6,6 +6,8 @@
 .orderconfirm{
     width: 50%;
     margin: auto;
+    position: relative;
+    top:100px;
 }
 .orderconfirm h2{
     margin-left: 20%;
