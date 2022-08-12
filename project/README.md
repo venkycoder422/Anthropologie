@@ -24,10 +24,10 @@ $ git clone https://github.com/venkycoder422/Anthropologie.git
 ### `npm start`
 
 ## Features
-- API request handling using mock server.
--Login, Sign Up with redux.
--Sort and pagination functionalities.
--Cart, product description, checkout page.
+- API request handling using mock server
+- Login, Sign Up with redux
+- Sort and pagination functionalities
+- Cart, product description, checkout page
 
 ## Acknowledgements
 - [anthropologie.com](https://www.anthropologie.com/)
