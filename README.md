@@ -1,5 +1,5 @@
 # Anthropologie
-Anthropologie is a website which sells women clothings and home furnitures.  Along with other 4 member, build the application in 5 days. websites which we includes the features Landing page, Sign In page, Cart page, Clothing page and Shipment page.
+Anthropologie is a website which sells women clothings and home furnitures.
 
 <img src="https://images.ctfassets.net/5de70he6op10/53ZOE4rRqrxcvv0hg2eSLV/a849085e5f600c618132be2475017746/anthro-logo.svg" width="600" height="200">
 
