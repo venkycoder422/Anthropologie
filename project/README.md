@@ -1,6 +1,6 @@
 # Getting Started with Anthropologie
 
-![test image size]<img src="https://images.ctfassets.net/5de70he6op10/53ZOE4rRqrxcvv0hg2eSLV/a849085e5f600c618132be2475017746/anthro-logo.svg" width="400" height="790">
+![test image size]<img src="https://images.ctfassets.net/5de70he6op10/53ZOE4rRqrxcvv0hg2eSLV/a849085e5f600c618132be2475017746/anthro-logo.svg" width="600" height="200">
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
