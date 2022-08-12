@@ -1,4 +1,5 @@
-# Getting Started with Anthropologie
+# Anthropologie
+Anthropologie is a website which sells women clothings and home furnitures.
 
 <img src="https://images.ctfassets.net/5de70he6op10/53ZOE4rRqrxcvv0hg2eSLV/a849085e5f600c618132be2475017746/anthro-logo.svg" width="600" height="200">
 
@@ -43,8 +44,4 @@ $ git clone https://github.com/venkycoder422/Anthropologie.git
 - React js
 - Redux
 - Mock Server
-<<<<<<< HEAD
 - Css
-=======
-- Css
->>>>>>> c2f1b2b121932d595631688601ed1942da46793f
