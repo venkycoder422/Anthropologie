@@ -7,10 +7,10 @@
 
 Anthropologie.com
 
-### About Anthropologie:
+## About Anthropologie:
 Anthropologie is a website which sells women clothings and home furnitures.
 
-### Demo:
+## Demo:
 https://user-images.githubusercontent.com/58986949/115314310-805b2780-a1a7-11eb-8558-648a367ea231.mp4
 
 Runs the app in the development mode.\
