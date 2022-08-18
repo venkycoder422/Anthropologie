@@ -11,7 +11,7 @@ Anthropologie.com
 ## About Anthropologie:
 Anthropologie is a website which sells women clothings and home furnitures.
 
-## Demo:
+## [Demo Link :-](https://anthropologie1.netlify.app/)
 
 https://user-images.githubusercontent.com/76251822/184294757-f7738622-d241-4c26-a68d-58ba9fa43a60.mp4
 
