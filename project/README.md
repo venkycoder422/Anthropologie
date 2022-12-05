@@ -43,8 +43,4 @@ $ git clone https://github.com/venkycoder422/Anthropologie.git
 - React js
 - Redux
 - Mock Server
-<<<<<<< HEAD
 - Css
-=======
-- Css
->>>>>>> c2f1b2b121932d595631688601ed1942da46793f
