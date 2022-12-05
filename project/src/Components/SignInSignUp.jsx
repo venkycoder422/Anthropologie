@@ -14,7 +14,7 @@ export function SignInSignUp() {
     const  Navigate=useNavigate()
 
     React.useEffect(()=>{
-        fetch(`https://anthropologie.herokuapp.com/signUpDetails`)
+        fetch(`https://anthropologie-server-production.up.railway.app//signUpDetails`)
         .then((res)=>res.json())
         .then((res)=>setdata(res))
         .catch((err)=>console.log(err));

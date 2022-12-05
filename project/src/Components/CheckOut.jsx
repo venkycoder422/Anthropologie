@@ -7,7 +7,7 @@ export const ShowDataCart = () => {
   const [cartState, setCartState] = React.useState([]);
 
   React.useEffect(() => {
-    fetch(`https://anthropologie.herokuapp.com/cartData`)
+    fetch(`https://anthropologie-server-production.up.railway.app//cartData`)
       .then((res) => res.json())
       .then((res) => setCartState(res))
 

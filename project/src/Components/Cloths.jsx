@@ -23,7 +23,7 @@ const [clothingdata,setclothingdata]=React.useState([]);
 const { current, pages, display, next, previous } = usePagination({ items: clothingdata, size: 14 });
 
 const getData = () =>{
-    fetch(`https://anthropologie.herokuapp.com/new_clothing`)
+    fetch(`https://anthropologie-server-production.up.railway.app//new_clothing`)
     .then((res)=>res.json())
     .then((res)=>setclothingdata(res))
     
