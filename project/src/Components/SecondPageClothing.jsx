@@ -84,7 +84,7 @@ export const SecondPageClothing = () => {
   console.log(id);
 
   React.useEffect(() => {
-    fetch(`https://anthropologie-server-production.up.railway.app//new_clothing/${id}`)
+    fetch(`https://anthropologie-server-production.up.railway.app/new_clothing/${id}`)
       .then((res) => res.json())
       .then((res) => setProductDetails(res))
 
@@ -94,7 +94,7 @@ export const SecondPageClothing = () => {
   const [addToBasket,setaddToBasket]=React.useState([]);
 const sendData=()=>{
 
-  fetch(`https://anthropologie-server-production.up.railway.app//cartData`,{
+  fetch(`https://anthropologie-server-production.up.railway.app/cartData`,{
     method:"POST",
     body : JSON.stringify(productDetails),
     headers : {

@@ -6,7 +6,7 @@ export default function OrderConfirm() {
   return (
     <div>
         <div className='orderconfirm'>
-            <img  className = "img" src="https://i.pinimg.com/originals/0d/e4/1a/0de41a3c5953fba1755ebd416ec109dd.gif"></img>
+            <img  className = "img" src="https://i.pinimg.com/originals/0d/e4/1a/0de41a3c5953fba1755ebd416ec109dd.gif" alt=""></img>
             <h2 style={{marginTop:"-5px"}}>Order Confirmed</h2>
             <Link to="/"><h3 style={{marginLeft:"172px",cursor:"pointer"}}>go to shopping</h3></Link>
         </div>

@@ -95,15 +95,15 @@ const LandingPage = () => {
   const [trendingPage,settrendingPage] = React.useState(1);
   const [likePage,setlikePage] = React.useState(1);
   React.useEffect(() => {
-    fetch(`https://anthropologie-server-production.up.railway.app//new_clothing`)
+    fetch(`https://anthropologie-server-production.up.railway.app/new_clothing`)
       .then((res) => res.json())
       .then((res) => setTotalData(res))
       .catch((err) => console.log(err))
-    fetch(`https://anthropologie-server-production.up.railway.app//new_clothing/?_page=${trendingPage}&_limit=5`)
+    fetch(`https://anthropologie-server-production.up.railway.app/new_clothing/?_page=${trendingPage}&_limit=5`)
       .then((res) => res.json())
       .then((res) => setData(res))
       .catch((err) => console.log(err))
-      fetch(`https://anthropologie-server-production.up.railway.app//new_clothing/?_page=${likePage}&_limit=5`)
+      fetch(`https://anthropologie-server-production.up.railway.app/new_clothing/?_page=${likePage}&_limit=5`)
       .then((res) => res.json())
       .then((res) => setData1(res))
       .catch((err) => console.log(err))

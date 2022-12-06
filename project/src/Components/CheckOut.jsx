@@ -7,7 +7,7 @@ export const ShowDataCart = () => {
   const [cartState, setCartState] = React.useState([]);
 
   React.useEffect(() => {
-    fetch(`https://anthropologie-server-production.up.railway.app//cartData`)
+    fetch(`https://anthropologie-server-production.up.railway.app/cartData`)
       .then((res) => res.json())
       .then((res) => setCartState(res))
 
@@ -39,7 +39,7 @@ export const ShowDataCart = () => {
                     <div id="item"><p>Item</p></div>
                     {/* <hr width="950px" align="left" margin-top="-2px"></hr> */}
                     <div className="image-name">
-                      <div className="imageData"> <img src={item.image} alt="" /></div>
+                      <div className="imageData"> <img src={item.image} alt="item" /></div>
                       <div className="nameData"> <p>{item.title}</p>
                         <p>Style #4130089540081</p>
                         <p>Color:Black</p></div>

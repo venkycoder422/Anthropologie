@@ -29,22 +29,22 @@ const [search,setSearch] = React.useState('');
     <>
     <NavbarWrapper>
     <div className="ContryAndGlobe">
-    <div className="Globe"style={{display:"flex",fontSize:"20px",marginLeft:"70%"}}><img src={globeicon}></img><Link className="LinksNav"to=""><p className="ContryIcon"style={{marginTop:"2px"}}>English ($)</p></Link></div>
-    <div style={{display:"flex",fontSize:"20px",marginLeft:"5%"}}><img src={user}></img><Link className="LinksNav" to="/SignInSignUp" ><p style={{marginTop:"2px"}}>Sign In / Sign Up</p></Link></div>
+    <div className="Globe"style={{display:"flex",fontSize:"20px",marginLeft:"70%"}}><img src={globeicon} alt="GlobeIcon"></img><Link className="LinksNav"to=""><p className="ContryIcon"style={{marginTop:"2px"}}>English ($)</p></Link></div>
+    <div style={{display:"flex",fontSize:"20px",marginLeft:"5%"}}><img src={user} alt="Userimg"></img><Link className="LinksNav" to="/SignInSignUp" ><p style={{marginTop:"2px"}}>Sign In / Sign Up</p></Link></div>
     </div>
     <div className='HomeIconSearch'>
       <div className="NavigateHomeDiv">
-        <div className='AnthroLogo'><Link to="/"><img src={anthrologo}></img></Link></div>
-        <div className='AnthroLogo'><Link to="/"><img src={anthrologo2}></img></Link></div>
+        <div className='AnthroLogo'><Link to="/"><img src={anthrologo} alt="anthro1"></img></Link></div>
+        <div className='AnthroLogo'><Link to="/"><img src={anthrologo2} alt="anthro2"></img></Link></div>
       </div>
       <div className='SearchBox'>
         <div>
             <input className="InputSearch" value={search} onChange={(e)=>setSearch(e.target.value)} aria-label='Search' placeholder='Search Anthropologie'></input>
         </div>
-        <div><button className='SearchButton_Transparent'><img src={SearchIcon}></img></button></div>
+        <div><button className='SearchButton_Transparent'><img src={SearchIcon} alt="searchIcon"></img></button></div>
         
       </div>
-      <div className='CartIcon'><Link to="/CheckOut"><img src={CartIcon}></img><p></p></Link></div>
+      <div className='CartIcon'><Link to="/CheckOut"><img src={CartIcon} alt="cartIcon"></img><p></p></Link></div>
     </div>
     <hr style={{margin:"0px"}}></hr>
     <div className='AccessingCategory'>

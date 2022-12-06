@@ -24,7 +24,7 @@ const [clothingdata,setclothingdata]=React.useState([]);
 const { current, pages, display, next, previous } = usePagination({ items: clothingdata, size: 14 });
 
 const getData = () =>{
-    fetch(`https://anthropologie-server-production.up.railway.app//new_clothing`)
+    fetch(`https://anthropologie-server-production.up.railway.app/new_clothing`)
     .then((res)=>res.json())
     .then((res)=>setclothingdata(res))
     
@@ -114,9 +114,9 @@ return (
                         
            
                
-                        <div className='clothsleftarrow1'><button disabled={current===1} onClick={previous}><img src={LeftArrow}></img></button></div>
+                        <div className='clothsleftarrow1'><button disabled={current===1} onClick={previous}><img src={LeftArrow} alt=""></img></button></div>
                         <div style={{marginTop:"15px"}}>{current}</div>
-                        <div className='clothsleftarrow2'><button disabled ={current==pages}onClick={next}><img src={LeftArrow}></img></button></div>
+                        <div className='clothsleftarrow2'><button disabled ={current==pages}onClick={next}><img src={LeftArrow} alt=""></img></button></div>
             
                         </div>
                         {/* </div> */}
@@ -130,13 +130,13 @@ return (
     display.map((data) => (
         <div className="CartData">
             <Link className='Links' to={`/new_clothing/${data.id}`}>
-            <img className="fullimage" src={data.image}></img>
+            <img className="fullimage" src={data.image} alt=""></img>
             <HoverButton className="But">Quick Shop</HoverButton>
             <p className="clothname">{data.title}</p></Link>
             <p className="pricetag">${data.price}</p>
             {
                 data.color?.map((colors,i)=>(
-                    <button className="circlebutton" style={{margin:'0px 3px'}}><img src={data.color[colors,i]}></img></button>
+                    <button className="circlebutton" style={{margin:'0px 3px'}}><img src={data.color[colors,i]} alt=""></img></button>
                 ))
 
             }

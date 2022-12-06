@@ -5,7 +5,7 @@ export default function MobileSign() {
   const [number, setnumber] = React.useState("");
   return (
     <div className='mobileLogin'>
-      <Link to="/"><img className="closeMark" src='https://icon-library.com/images/close-x-icon/close-x-icon-19.jpg' /></Link>
+      <Link to="/"><img className="closeMark" src='https://icon-library.com/images/close-x-icon/close-x-icon-19.jpg' alt="CLoseMark" /></Link>
 
       <h2>Sign In</h2>
       <hr className='mobilehr'></hr>

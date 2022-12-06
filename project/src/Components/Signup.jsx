@@ -29,7 +29,7 @@ export default function () {
         })
 
         
-        const res = await fetch(`https://anthropologie-server-production.up.railway.app//signUpDetails`,{
+        const res = await fetch(`https://anthropologie-server-production.up.railway.app/signUpDetails`,{
             method : "POST",
             body:JSON.stringify(details),
             headers :{
